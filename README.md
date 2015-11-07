@@ -4,8 +4,8 @@ This repository serves as a large, unorganized collection of my past work. A var
 
 # Most Ubiquitous Languages / Platforms
 HTML
-CSS
-JavaScript
-PHP
-MySQL
-Visual Basic .NET
+<br>CSS
+<br>JavaScript
+<br>PHP
+<br>MySQL
+<br>Visual Basic .NET
