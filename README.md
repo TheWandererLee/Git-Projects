@@ -1,6 +1,6 @@
 # TyDaryll Chandler :: Git-Projects
 
-This repository serves as a large, unorganized collection of my past work. A variety of constructs and development platforms were utilized and are displayed here. 
+This repository serves as a large, unorganized collection of my past work.
 
 # Most Ubiquitous Languages / Platforms
 HTML
