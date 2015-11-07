@@ -1,0 +1,34 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\H_Name.formMain.resources
+obj\Release\H_Name.Resources.resources
+obj\Release\H-Name.vbproj.GenerateResource.Cache
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\H_Name.formMain.resources
+obj\Debug\H_Name.Resources.resources
+obj\Debug\H-Name.vbproj.GenerateResource.Cache
+obj\Debug\H_Name.formPlugins.resources
+obj\Debug\H_Name.formEditPlugin.resources
+obj\Release\H_Name.formPlugins.resources
+obj\Release\H_Name.formEditPlugin.resources
+bin\Release\H-Name v1.6.0.xml
+obj\Release\H-Name v1.6.0.xml
+bin\Debug\H-Name v1.6.0.xml
+obj\Debug\H-Name v1.6.0.xml
+obj\Debug\H_Name.formPluginConverter.resources
+bin\Release\H-Name v1.6.0.4.exe.manifest
+bin\Release\H-Name v1.6.0.4.application
+bin\Release\H-Name v1.6.0.4.exe
+bin\Release\H-Name v1.6.0.4.pdb
+obj\Release\H_Name.formPluginConverter.resources
+obj\Release\H-Name v1.6.0.4.exe.manifest
+obj\Release\H-Name v1.6.0.4.application
+obj\Release\H-Name v1.6.0.4.exe
+obj\Release\H-Name v1.6.0.4.pdb
+bin\Debug\H-Name v1.6.0.4.exe.manifest
+bin\Debug\H-Name v1.6.0.4.application
+bin\Debug\H-Name v1.6.0.4.exe
+bin\Debug\H-Name v1.6.0.4.pdb
+obj\Debug\H-Name v1.6.0.4.exe.manifest
+obj\Debug\H-Name v1.6.0.4.application
+obj\Debug\H-Name v1.6.0.4.exe
+obj\Debug\H-Name v1.6.0.4.pdb

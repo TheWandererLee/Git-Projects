@@ -1,0 +1,28 @@
+bin\Release\Vehicle Editor.exe.manifest
+bin\Release\Vehicle Editor.application
+bin\Release\Vehicle Editor.exe
+bin\Release\Vehicle Editor.pdb
+bin\Release\Vehicle Editor.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Vehicle_Editor.formMain.resources
+obj\Release\Vehicle_Editor.Resources.resources
+obj\Release\Vehicle Editor.vbproj.GenerateResource.Cache
+obj\Release\Vehicle Editor.exe.manifest
+obj\Release\Vehicle Editor.application
+obj\Release\Vehicle Editor.exe
+obj\Release\Vehicle Editor.xml
+obj\Release\Vehicle Editor.pdb
+bin\Debug\Vehicle Editor.exe.manifest
+bin\Debug\Vehicle Editor.application
+bin\Debug\Vehicle Editor.exe
+bin\Debug\Vehicle Editor.pdb
+bin\Debug\Vehicle Editor.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Vehicle_Editor.formMain.resources
+obj\Debug\Vehicle_Editor.Resources.resources
+obj\Debug\Vehicle Editor.vbproj.GenerateResource.Cache
+obj\Debug\Vehicle Editor.exe.manifest
+obj\Debug\Vehicle Editor.application
+obj\Debug\Vehicle Editor.exe
+obj\Debug\Vehicle Editor.xml
+obj\Debug\Vehicle Editor.pdb

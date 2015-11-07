@@ -1,0 +1,28 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BSP Master.vbproj.GenerateResource.Cache
+bin\Debug\BSP Master.exe
+bin\Debug\BSP Master.pdb
+bin\Debug\BSP Master.xml
+obj\Debug\BSP_Master.formError.resources
+obj\Debug\BSP_Master.formMain.resources
+obj\Debug\BSP_Master.formPoints.resources
+obj\Debug\BSP_Master.Resources.resources
+obj\Debug\BSP Master.exe
+obj\Debug\BSP Master.xml
+obj\Debug\BSP Master.pdb
+obj\Debug\BSP_Master.formAdvanced.resources
+bin\Release\BSP Master.exe
+bin\Release\BSP Master.pdb
+bin\Release\BSP Master.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\BSP_Master.formError.resources
+obj\Release\BSP_Master.formAdvanced.resources
+obj\Release\BSP_Master.formMain.resources
+obj\Release\BSP_Master.formPoints.resources
+obj\Release\BSP_Master.Resources.resources
+obj\Release\BSP Master.vbproj.GenerateResource.Cache
+obj\Release\BSP Master.exe
+obj\Release\BSP Master.xml
+obj\Release\BSP Master.pdb
+obj\Debug\BSP_Master.formAbout.resources
+obj\Release\BSP_Master.formAbout.resources

@@ -1,0 +1,11 @@
+obj\Debug\Program Organization Simplifier.exe
+obj\Debug\Program Organization Simplifier.xml
+obj\Debug\Program Organization Simplifier.pdb
+bin\Debug\Program Organization Simplifier.exe
+bin\Debug\Program Organization Simplifier.pdb
+bin\Debug\Program Organization Simplifier.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Program_Organization_Simplifier.formMain.resources
+obj\Debug\Program_Organization_Simplifier.Resources.resources
+obj\Debug\Program Organization Simplifier.vbproj.GenerateResource.Cache
+obj\Debug\Program_Organization_Simplifier.formPreferences.resources

@@ -1,0 +1,32 @@
+obj\Debug\Screen Shaper.exe
+obj\Debug\Screen Shaper.xml
+obj\Debug\Screen Shaper.pdb
+bin\Debug\Screen Shaper.exe.manifest
+bin\Debug\Screen Shaper.application
+bin\Debug\Screen Shaper.exe
+bin\Debug\Screen Shaper.pdb
+bin\Debug\Screen Shaper.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Screen_Shaper.Resources.resources
+obj\Debug\Screen_Shaper.OptionsForm.resources
+obj\Debug\Screen_Shaper.ScreenSaverForm.resources
+obj\Debug\Screen Shaper.vbproj.GenerateResource.Cache
+obj\Debug\Screen Shaper.exe.manifest
+obj\Debug\Screen Shaper.application
+bin\Debug\Screen Shaper.exe.config
+obj\Debug\Screen Shaper.TrustInfo.xml
+bin\Release\Screen Shaper.exe.config
+bin\Release\Screen Shaper.exe.manifest
+bin\Release\Screen Shaper.application
+bin\Release\Screen Shaper.exe
+bin\Release\Screen Shaper.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Screen_Shaper.Resources.resources
+obj\Release\Screen_Shaper.OptionsForm.resources
+obj\Release\Screen_Shaper.ScreenSaverForm.resources
+obj\Release\Screen Shaper.vbproj.GenerateResource.Cache
+obj\Release\Screen Shaper.TrustInfo.xml
+obj\Release\Screen Shaper.exe.manifest
+obj\Release\Screen Shaper.application
+obj\Release\Screen Shaper.exe
+obj\Release\Screen Shaper.xml

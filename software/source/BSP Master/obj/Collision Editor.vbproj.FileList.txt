@@ -1,0 +1,23 @@
+obj\Debug\Collision Editor.exe
+obj\Debug\Collision Editor.xml
+obj\Debug\Collision Editor.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Collision_Editor.formMain.resources
+obj\Debug\Collision_Editor.Resources.resources
+obj\Debug\Collision Editor.vbproj.GenerateResource.Cache
+bin\Debug\Collision Editor.exe
+bin\Debug\Collision Editor.pdb
+bin\Debug\Collision Editor.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Collision_Editor.formMain.resources
+obj\Release\Collision_Editor.Resources.resources
+obj\Release\Collision Editor.vbproj.GenerateResource.Cache
+bin\Release\Collision Editor.exe
+bin\Release\Collision Editor.pdb
+bin\Release\Collision Editor.xml
+obj\Release\Collision Editor.exe
+obj\Release\Collision Editor.xml
+obj\Release\Collision Editor.pdb
+obj\Debug\Collision_Editor.formPoints.resources
+obj\Debug\Collision_Editor.formError.resources
+obj\Debug\Collision_Editor.formIE.resources

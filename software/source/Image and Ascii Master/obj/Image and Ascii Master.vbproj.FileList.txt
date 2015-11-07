@@ -1,0 +1,10 @@
+obj\Debug\Image and Ascii Master.exe
+obj\Debug\Image and Ascii Master.xml
+obj\Debug\Image and Ascii Master.pdb
+bin\Debug\Image and Ascii Master.exe
+bin\Debug\Image and Ascii Master.pdb
+bin\Debug\Image and Ascii Master.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Image_and_Ascii_Master.formMain.resources
+obj\Debug\Image_and_Ascii_Master.Resources.resources
+obj\Debug\Image and Ascii Master.vbproj.GenerateResource.Cache

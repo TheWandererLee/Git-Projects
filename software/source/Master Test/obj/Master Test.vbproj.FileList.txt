@@ -1,0 +1,10 @@
+obj\Debug\Master Test.exe
+obj\Debug\Master Test.xml
+obj\Debug\Master Test.pdb
+bin\Debug\Master Test.exe
+bin\Debug\Master Test.pdb
+bin\Debug\Master Test.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Master_Test.formMain.resources
+obj\Debug\Master_Test.Resources.resources
+obj\Debug\Master Test.vbproj.GenerateResource.Cache

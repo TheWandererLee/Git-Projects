@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ScreenShaper
+</name>
+</assembly>
+<members>
+<member name="P:Screen_Shaper.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Screen_Shaper.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Screen_Shaper.My.Resources.Resources.DefaultRSSText">
+	<summary>
+  Looks up a localized string similar to &lt;rss version="2.0"&gt;&lt;channel&gt;&lt;title&gt;RSS Feed Not Available&lt;/title&gt;&lt;link&gt;http://go.microsoft.com/fwlink/?LinkId=49536&lt;/link&gt;&lt;description&gt;The RSS feed could not be loaded.&lt;/description&gt;&lt;language&gt;en-us&lt;/language&gt;&lt;ttl&gt;1440&lt;/ttl&gt;&lt;item&gt;&lt;title&gt;You may not be connected to the internet.&lt;/title&gt;&lt;description&gt;If you are trying to use an RSS feed on the internet check your Internet connection.&lt;/description&gt;&lt;link&gt;http://go.microsoft.com/fwlink/?LinkId=49536&lt;/link&gt;&lt;/item&gt;&lt;item&gt;&lt;title&gt;Try selecting a different RSS feed.&lt;/title&gt;&lt;des[rest of String was truncated]";.
+</summary>
+</member><member name="T:Screen_Shaper.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Screen_Shaper.RssChannel.#ctor(System.Xml.XmlNode)">
+	<summary>
+Build an RSSChannel from an XmlNode representing a Channel element inside an RSS 2.0 XML document.
+</summary>
+	<param name="channelNode"></param>
+</member><member name="T:Screen_Shaper.RssChannel">
+	<summary>
+Representation of a Channel element in an RSS 2.0 XML document.
+ </summary>
+	<remarks>
+One or more RssChannels are contained in an RssFeed.  Use MainChannel property to access
+the primary channel.  
+ </remarks>
+</member><member name="T:Screen_Shaper.IItem">
+	<summary>
+ A generealization of an item with a <c>Description</c> and <c>Title</c>.
+ Any implmentation of IItem can be rendered using the ItemListView and ItemDescriptionView types.
+</summary>
+</member><member name="M:Screen_Shaper.RssFeed.#ctor(System.Xml.XmlNode)">
+	<summary>
+ Private constructor to be used with factory pattern.  
+ </summary>
+	<param name="xmlNode">An XML block containing the RSSFeed content.</param>
+</member><member name="M:Screen_Shaper.RssFeed.FromUri(System.String)">
+	<summary>
+Construct an RSSFeed object from a uri pointing to a valid RSS 2.0 XML file.
+</summary>
+	<exception cref="T:System.Net.WebException">Occurs when the uri cannot be located on the web.</exception>
+	<param name="uri">The URL to read the RSS feed from.</param>
+</member><member name="M:Screen_Shaper.RssFeed.FromText(System.String)">
+	<summary>
+Construct an RssFeed object from the text of an RSS 2.0 XML file.
+</summary>
+	<param name="rssText">A string containing the XML for the RSS feed.</param>
+</member><member name="T:Screen_Shaper.RssFeed">
+	<summary>
+Representation of an RSS element in a RSS 2.0 XML document
+</summary>
+</member><member name="M:Screen_Shaper.ItemDescriptionView`1.#ctor">
+	<summary>
+Create a new ItemDescriptionView connected to <paramref name="listView"/>.
+</summary>
+</member><member name="M:Screen_Shaper.ItemDescriptionView`1.Dispose">
+	<summary>
+Dispose all disposable fields
+</summary>
+</member><member name="T:Screen_Shaper.ItemDescriptionView`1">
+	<summary>
+Encapsulates the rendering of the description of an item.
+</summary>
+	<typeparam name="T">The type of item that this ItemDescriptionView will draw.</typeparam>
+</member><member name="M:Screen_Shaper.RssItem.#ctor(System.Xml.XmlNode)">
+	<summary>
+Builds an RSSItem from an XmlNode representing an Item element inside an RSS 2.0 XML document.
+</summary>
+	<param name="itemNode"></param>
+</member><member name="T:Screen_Shaper.RssItem">
+	<summary>
+Representation of an Item element in an RSS 2.0 XML document.
+</summary>
+	<remarks>Zero or more RssItems are contained in an RssChannel.</remarks>
+</member><member name="P:Screen_Shaper.ItemListView`1.NumArticles">
+	<summary>
+ Gets the number of articles that will be displayed.
+ </summary>
+</member><member name="P:Screen_Shaper.ItemListView`1.NumArticleRows">
+	<summary>
+ Gets the number of rows that will appear in the display.
+ </summary>
+	<remarks>
+ This may be more than NumArticles if there are less articles available than 
+ would fill up the minimum number of rows.
+ </remarks>
+</member><member name="M:Screen_Shaper.ItemListView`1.DrawBackground(System.Drawing.Graphics)">
+	<summary>
+Draws a box and border ontop of which the text of the items can be drawn.
+</summary>
+	<param name="g">The Graphics object to draw onto</param>
+</member><member name="M:Screen_Shaper.ItemListView`1.DrawItemTitle(System.Drawing.Graphics,System.Int32)">
+	<summary>
+Draws the title of the item with the given index.
+</summary>
+	<param name="g">The Graphics object to draw onto</param>
+	<param name="index">The index of the item in the list</param>
+</member><member name="M:Screen_Shaper.ItemListView`1.DrawTitle(System.Drawing.Graphics)">
+	<summary>
+Draws a title bar.
+</summary>
+	<param name="g">The Graphics object to draw onto</param>
+</member><member name="M:Screen_Shaper.ItemListView`1.Dispose">
+	<summary>
+Dispose all disposable fields
+</summary>
+</member><member name="T:Screen_Shaper.ItemListView`1">
+	<summary>
+Encapsulates the rendering of a list of items.  Each item's description is shown in a list, and a single item is selected.
+</summary>
+	<typeparam name="T">The type of item that this ItemListView will draw.</typeparam>
+</member>
+</members>
+</doc>

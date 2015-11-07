@@ -1,0 +1,17 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastOpenVersion>8.0.50215</LastOpenVersion>
+    <PublishUrlHistory>C:\Documents and Settings\Our Laptop\Desktop\Visual Basic Projects\Published\|C:\Documents and Settings\Our Laptop\Desktop\Visual Basic Projects\Compare 2gethe|C:\Documents and Settings\Our Laptop\Desktop\Visual Basic Projects\Compare 2gethe\|http://localhost/Compare 2gether/</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ApplicationRevision>0</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

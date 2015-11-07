@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="contextMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>446, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="conBtnSaveMap.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAXBJREFUOE+tUyFy
+        wzAQzBP6hDzBMFAwUNBQsFAwUDDQMKyaokDBQMGgjmGhYKFg2XX3nMSKm5a0N7OTGUu7t3unrFb/UelU
+        RZEuOFaJETgUGYYL9kVCAHajeMKPcutNYs6Cy/Jr1U8R22dxfVJ8F9jXHwVIrrWKsVm6zkGoEYiwTAe0
+        +Kiu5PJRpbMJMYpYG2cHzEsBj4NlteTxHQLbpPnvBTAsFcBBW0tyHousTRT3vBDgpCnAg2s9IudzkacN
+        BFwWux3mCANWlE+CVULEQZ0XMG0dGDLTNjvfyDxrBTi8lCAAxMh1VgnYyLT3otE83GlnkC1E7wXwMNJx
+        Jtve42ID5xEvNGQImDBH4MtqO5OMRyKdMcLJj6WK2wV0ZWeS40IAFuMB7+BimwIk+90gBWTu34cB30iM
+        0++mdYB8mhuZ1xxYZzDQrMh5lHzm2qwSFdiE2ajLqV5f3pCRA0r6QG7ApDksBTKz6wQ4bAX+8o/+AlZa
+        PCPOh7+eAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="conBtnSaveMapAs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAXBJREFUOE+tUyFy
+        wzAQzBP6hDzBMFAwUNBQsFAwUDDQMKyaokDBQMGgjmGhYKFg2XX3nMSKm5a0N7OTGUu7t3unrFb/UelU
+        RZEuOFaJETgUGYYL9kVCAHajeMKPcutNYs6Cy/Jr1U8R22dxfVJ8F9jXHwVIrrWKsVm6zkGoEYiwTAe0
+        +Kiu5PJRpbMJMYpYG2cHzEsBj4NlteTxHQLbpPnvBTAsFcBBW0tyHousTRT3vBDgpCnAg2s9IudzkacN
+        BFwWux3mCANWlE+CVULEQZ0XMG0dGDLTNjvfyDxrBTi8lCAAxMh1VgnYyLT3otE83GlnkC1E7wXwMNJx
+        Jtve42ID5xEvNGQImDBH4MtqO5OMRyKdMcLJj6WK2wV0ZWeS40IAFuMB7+BimwIk+90gBWTu34cB30iM
+        0++mdYB8mhuZ1xxYZzDQrMh5lHzm2qwSFdiE2ajLqV5f3pCRA0r6QG7ApDksBTKz6wQ4bAX+8o/+AlZa
+        PCPOh7+eAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="openFileOBJ.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="contextSoftness.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>330, 54</value>
+  </metadata>
+  <metadata name="statusMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>558, 17</value>
+  </metadata>
+  <metadata name="saveFileOBJ.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="openFileMap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>243, 17</value>
+  </metadata>
+  <metadata name="saveFileMap.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 54</value>
+  </metadata>
+  <metadata name="toolSide.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>239, 54</value>
+  </metadata>
+  <data name="toolBtnSelect.ToolTipText" xml:space="preserve">
+    <value>Select:
+    Select multiple points with the mouse, click to set the
+        top-left corner and release to set the bottom-right
+        corner. Points within that rectangle will be shown in
+        the Point Editor.
+
+    Tip - The first time you use the feature after opening
+        the program it will not function correctly. Afterwards
+        it will work. Sorry for the inconvenience.</value>
+  </data>
+  <data name="toolBtnRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAYAAADphp8SAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKhJREFUOE+tk+EJ
+        hTAMhOtM7uQC+uws/Sei27ydoqcchBijUAspWtIv117ayD5S5RjGIaVa0Dqv0v96cUGl/KXrirTtGfjG
+        mif8FmQB9h8wrBHqglCVCqZpEQY3a4UhiNU1wEJYKARpNfY+qBY5Oef4aBGIYORA8eujeYpeu4ZKniq2
+        g3YrVOS5o+23JiA/bEhstv3jQR5BSNB9dAe5gCCvJo63humL2AB/NZFvt8ehsgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="toolTop.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>357, 17</value>
+  </metadata>
+  <data name="toolComboDrawType.ToolTipText" xml:space="preserve">
+    <value>Draw Types:
+    Both: Draws both the collision and the mesh
+        vertices of the map.
+
+    Mesh: Draws only the vertices associated with
+        the visual mesh of the map.
+
+    Collision: Draws only the vertices associated
+        with the collision points of the map.</value>
+  </data>
+  <data name="toolComboDrawMode.ToolTipText" xml:space="preserve">
+    <value>Draw Modes:
+    Depth: Draws small circles corresponding to the points height,
+        small transparent green circles indicate the lowest points, while
+        larger solid red circles indicate higher z coordinates. The higher
+        the softness value, the more margin there is between the
+        transparency of the lower points and the higher points.
+
+    Sketch: Draws lines between each 2 points, the second point for
+        the first line being the first point for the first line. Lines intersect
+        at small red circles.
+
+    Overlay: Draws triangles between each 3 points, used for showing
+        amount of overlay per triangle. Triangles transparent amount
+        are relative to the amount of softness and the amount of
+        triangles beneath it. *Only works for Collision
+
+    Area: Similar to sketch in that it draws lines between each two
+        points, however, it draws each area of the map individually and
+        marks them with random colors. *Only works for Mesh.
+
+    Artistic Circles: Similar to Area, but instead of lines between each
+        two points, it creates a circle using the coordinates of the
+        current point and the last point.
+
+    Labels: Labels each point with it's corresponding point number in
+        red, as well as drawing a small circle on the points location.</value>
+  </data>
+  <data name="toolLblPrecision.ToolTipText" xml:space="preserve">
+    <value>Precision:
+    Allows you to change the precision of the render,
+        higher numbers will look better and be more
+        accurate, although will take longer to render.
+        Lower numbers will look worse and be less
+        accurate, but will render much faster.</value>
+  </data>
+  <data name="toolBtnAdvanced.ToolTipText" xml:space="preserve">
+    <value>Advanced:
+    Displays additional information about the map,
+        and provides the user with a few extra functions
+        for editing the map, such as importing and
+        exporting .OBJ files.</value>
+  </data>
+  <metadata name="timDashSpin.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD///////////////////+IiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////+/
+        v7+/v7////////97e3sAAAAAAAAAAAAAAAAAAAAAAAD////////9/f3///+/v78qKioqKiq/v7////+2
+        trYcHBwAAAAAAAAAAAAAAAAAAAD////7+/v8/Pz///+/v78qKioqKiq/v7////+1tbUcHBwAAAAAAAAA
+        AAAAAAD////////+/v7+/v7///////+/v7+/v7////////+SkpINDQ0AAAAAAAAAAAAAAAD/////////
+        ///////////////////////////W1tZFRUUAAAAAAAAAAAAAAAAAAAD////////////////////o6OjR
+        0dHR0dGpqalFRUUCAgIAAAAAAAAAAAAAAAAAAAD////////////6+vq7u7teXl41NTU2NjYbGxsAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD///////////+0tLQmJiYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD////////p6elaWloAAAAAAABVVVVVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////K
+        ysodHR0AAABVVVXU1NTU1NRVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADn5+fe3t4fHx8AAABVVVXU
+        1NTU1NRVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADW1tZ7e3sAAAAAAABVVVVVVVUAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4HwAA4AcAAMAD
+        AACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA
+</value>
+  </data>
+</root>

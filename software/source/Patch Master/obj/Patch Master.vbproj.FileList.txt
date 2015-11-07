@@ -1,0 +1,26 @@
+obj\Debug\Patch Master.exe
+obj\Debug\Patch Master.xml
+obj\Debug\Patch Master.pdb
+bin\Debug\Patch Master.exe
+bin\Debug\Patch Master.pdb
+bin\Debug\Patch Master.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Patch_Master.formMain.resources
+obj\Debug\Patch_Master.Resources.resources
+obj\Debug\Patch Master.vbproj.GenerateResource.Cache
+obj\Debug\Patch_Master.formCreate.resources
+bin\Release\Patch Master.exe
+bin\Release\Patch Master.pdb
+bin\Release\Patch Master.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Patch_Master.formCreate.resources
+obj\Release\Patch_Master.formMain.resources
+obj\Release\Patch_Master.Resources.resources
+obj\Release\Patch Master.vbproj.GenerateResource.Cache
+obj\Release\Patch Master.exe
+obj\Release\Patch Master.xml
+obj\Release\Patch Master.pdb
+obj\Debug\Patch_Master.formAutopatcher.resources
+obj\Release\Patch_Master.formAutopatcher.resources
+obj\Debug\Patch_Master.formAbout.resources
+obj\Release\Patch_Master.formAbout.resources

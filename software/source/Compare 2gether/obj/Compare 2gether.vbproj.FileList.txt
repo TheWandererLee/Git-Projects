@@ -1,0 +1,24 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Compare_2gether.formMain.resources
+obj\Debug\Compare_2gether.Resources.resources
+obj\Debug\Compare 2gether.vbproj.GenerateResource.Cache
+bin\Debug\Compare 2gether.exe
+bin\Debug\Compare 2gether.pdb
+bin\Debug\Compare 2gether.xml
+obj\Debug\Compare 2gether.exe
+obj\Debug\Compare 2gether.xml
+obj\Debug\Compare 2gether.pdb
+bin\Release\Compare 2gether.exe.manifest
+bin\Release\Compare 2gether.application
+bin\Release\Compare 2gether.exe
+bin\Release\Compare 2gether.pdb
+bin\Release\Compare 2gether.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Compare_2gether.formMain.resources
+obj\Release\Compare_2gether.Resources.resources
+obj\Release\Compare 2gether.vbproj.GenerateResource.Cache
+obj\Release\Compare 2gether.exe.manifest
+obj\Release\Compare 2gether.application
+obj\Release\Compare 2gether.exe
+obj\Release\Compare 2gether.xml
+obj\Release\Compare 2gether.pdb

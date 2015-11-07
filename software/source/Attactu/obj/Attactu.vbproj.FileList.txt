@@ -1,0 +1,13 @@
+obj\Debug\Attactu.exe
+obj\Debug\Attactu.xml
+obj\Debug\Attactu.pdb
+bin\Release\Attactu.exe
+bin\Release\Attactu.pdb
+bin\Release\Attactu.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Attactu.formMain.resources
+obj\Release\Attactu.Resources.resources
+obj\Release\Attactu.vbproj.GenerateResource.Cache
+obj\Release\Attactu.exe
+obj\Release\Attactu.xml
+obj\Release\Attactu.pdb

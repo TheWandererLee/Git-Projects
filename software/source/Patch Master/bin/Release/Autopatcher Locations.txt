@@ -1,0 +1,10 @@
+13664: Show start message (22(&H16)=False|23(&H17)=True)
+13671: Show end message (22(&H16)=False|23(&H17)=True)
+13678: Show in taskbar (22(&H16)=False|23(&H17)=True)
+
+26906-26968: Patch folder name (As Unicode String)
+26972-27034: Source folder name (As Unicode String)
+27038-27100: Destination folder name (As Unicode String)
+
+27105-27303: Program start message (As Unicode String)
+27308-27506: Program end message (As Unicode String)
