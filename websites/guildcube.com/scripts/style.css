@@ -1,0 +1,33 @@
+/* General, site-wide style information. */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+table.header {
+	border-color: #FF9900;
+	background-color: #000000;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+a.header {
+text-decoration: none;
+color: #FF9900;
+}
+a.header:hover {
+color: #FFCC00;
+}
+
+tr.login {
+height: 28px;
+}
+tr.newGuild {
+height: 28px;
+}

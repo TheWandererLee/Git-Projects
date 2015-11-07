@@ -1,0 +1,2 @@
+<tr /><td><font color="#9A7371">2/3/07</font></td><td>Launched new site design, hope you like it :) You can still visit the old homepage by <u><a href="main.php">clicking here</a></u></td>
+<tr /><td><font color="#9A7371">1/21/07</font></td><td>Started work on a new site design</td>

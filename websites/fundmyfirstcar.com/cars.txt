@@ -1,0 +1,23 @@
+*Lamborghini Murcielago Convertible: $328,150
+Lamborghini Murcielago Coupe: $290,900
+*Ferrari Spider Convertible: $192,484
+Aston Martin DB9 Coupe: $161,100
+Porsche 911 Carrera Turbo Coupe (AWD): $122,900
+*Porsche 911 Carrera Cabriolet S: $92,800
+*Dodge Viper Convertible: $81,895
+Porsche 911 Carrera Coupe: $71,300
+Chevrolet Corvette Z06: $64,890
+Jaguar S-Type (Auto): $55,335
+*Chevrolet Corvette Convertible: $51,390
+Chevrolet Corvette Coupe: $43,690
+Mercedes-Benz Class C Luxury: $33,400
+*Mazda MX-5 Miata Grand Touring (Auto): $25,600
+Saturn Ion Quad Coupe (Auto): $16,830
+Chevrolet Cobalt Coupe: $13,050
+Used Hyundai Accent Coupe: $9,900
+Junk Car: $100
+Monopoly: $20
+Junk Monopoly Car: $1
+
+*Convertible
+<-- Any of the above cars, used on ebay motors -->

@@ -1,0 +1,6 @@
+If user does not end their own broadcast, it will be stuck there.
+
+Who's currently broadcasting updates slow ~500-1000ms.
+^ With additional 1000ms for video quality to clear up.
+
+* - Known exploits

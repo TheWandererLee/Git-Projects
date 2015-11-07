@@ -1,0 +1,28 @@
+business\company\name\phone\email
+Realtor\Coldwell Banker Sea Coast\Crystal Babson\910-393-9957\kozelteam@gmail.com
+Realtor\Bill Clark Homes\Stan Powell\910-274-5067\newhomesrealtornc@gmail.com
+Home Inspector\National Property inspections\Susan Giuffre\910-575-2171\newhomesrealtornc@gmail.com
+Insurance\Farm Bureau\Cindy Leonard\910-640-7048\Cindy.Leonard@ncfbins.com
+Attorney\Bellamy Law Firm\Kirsten M. Gordon\910-755-8820\kgordon@bellamylaw.com
+Assisted Services\Arbor Landing\Amy Causey\910-540-4343\acausey@ridgecare.com
+Lighting\Dog fence\Prestige Outdoor Lighting\Bill Raphael\910-612-1910\bill@prestigeoutdoorlighting.com
+Advertising\WECT 6\Aric Boyd\919-418-1802\aboyd@wect.com
+Chiropractor\Coastal Integrative Health\Lucas Workman\910-755-5400\drworkman@coastalhealthnc.com
+Moving Company\East Coast Moving, LLC\Carrie Partello\910-755-2058\eastcoastmvg@atmc.net
+Apparel & Gifts\The Red House Specialty Shops\Kathy Woods\910-754-4442\kwoods47@aol.com
+Attorney\Wortman Law\Rachel Purvis Stanley\910-755-7252\purvisrj@gmail.com
+Advertising\Pioneer Strategies\Frank Williams\910-371-3408\frank@pioneerstrategies.com
+Builder\Paul Tyndell Builders\Paul Tyndell\910-443-3943\ptyndell@gmail.com
+Attorney\Cox Law Firm\Richard Cox\910-754-2400\wrichardcox@atmc.net
+Property Inspections\National Property Inspections\Susan Giuffre\866-210-6268\InspectionsbyNPI@gmail.com
+Windows\Window Man\Steven Balsavich\910-515-3693\stevewindowman@aol.com
+Banking\First Federal Bank\Ben DeWitt\910-793-4600\bdewitt@firstfederal.com
+Outdoor Lighting\Prestige Outdoor Lighting\Bill Raphael\910-612-1910\Bill@prestigeoutdoorlighting.com
+Pet Fencing\Carolina Pet Fencing\Bill Raphael\910-612-1822\manager@CarolinaPetFencing.com
+Attorney at Law\W. James Payne Law Firm\James Payne\910-754-4389\payne@jamespaynelaw.com
+Storage\Access Storage\Hazel Graham\910-755-7867\Marymark@atmc.net
+Custom Home Builder\Advanced Timber Manufacturing, LLC\Chris Frey\910-795-1266\chris@advanced-timber.com
+Chiropractic\Coastal Carolina Chiropractic\Brian S. Lank, DC\910-755-5400\Drlank@cpgfitness.com
+Identity Theft\Pre-Paid Legal Services, Inc\J. Holly Stevens\866-263-0939\Hs_idt@yahoo.com
+Heating and Air\Aire Serv Heating & Air Conditioning\Christy Moore\910-842-7768\Christy.moore@mail.aireserv.com
+Flooring\Floor Coverings International\John Henson\910-575-5248\John.henson@floorcoveringsinternational.com

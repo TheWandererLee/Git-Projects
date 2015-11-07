@@ -1,0 +1,68 @@
+/** Minimal stand-alone css for dropdownchecklist support
+    We highly recommend using JQuery ThemeRoller instead  
+*/
+.ui-dropdownchecklist {
+	font-size: 12px;
+	color: black;
+}
+.ui-dropdownchecklist-selector {
+    height: 17px;
+    border: 1px solid #aaa;
+    border-right: 0;
+    background: #fff url(dropdown.png) no-repeat center right;
+    padding-left: 4px;
+}
+.ui-state-hover, .ui-state-active {
+    background-image: url(dropdown_hover.png);
+	border-color: #5794bf;
+}
+.ui-dropdownchecklist-dropcontainer {
+    background-color: #fff;
+    border: 1px solid #999;
+}
+.ui-dropdownchecklist-item {
+	background-image: none !important;
+	background-color: #fff !important;
+	border: none !important;
+}
+.ui-state-hover {
+	background-color: #fff;
+}
+.ui-state-disabled label {
+	color: #ccc;
+}
+.ui-dropdownchecklist-group {
+	font-weight: bold;
+	font-style: italic;
+}
+.ui-dropdownchecklist-indent {
+	padding-left: 7px;
+}
+/* Font size of 0 on the -selector and an explicit medium on -text required to eliminate 
+   descender problems within the containers and still have a valid size for the text */
+.ui-dropdownchecklist-selector-wrapper {
+	vertical-align: middle;
+	font-size: 0px;
+}
+.ui-dropdownchecklist-selector {
+	padding: 1px 2px 2px 2px;
+	font-size: 0px;
+}
+.ui-dropdownchecklist-text 
+{
+    color: black !important;
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px;
+    margin-right: 17px; /* background dropdown.png image */
+}
+.ui-dropdownchecklist-group {
+	padding: 1px 2px 2px 2px;
+}
+
+.searchlist{
+	float: left;
+}
+.searchinput{
+	float: left;
+}

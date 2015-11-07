@@ -1,0 +1,852 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LABEL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+FIELDSET {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+ADDRESS {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CAPTION {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CITE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CODE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+DFN {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+EM {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+STRONG {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+TH {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+VAR {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H2 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H3 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H4 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H5 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H6 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+Q:before {
+	CONTENT: ''
+}
+Q:after {
+	CONTENT: ''
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+EM {
+	FONT-STYLE: italic
+}
+A IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+* {
+	LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+BODY {
+	LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+.col1 {
+	LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+.col2 {
+	LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+BODY {
+	BACKGROUND-COLOR: #fff
+}
+A {
+	COLOR: #000; FONT-WEIGHT: bold
+}
+#contactMeContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#registerContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#loginContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#searchContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#propertyDetailsContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#requestViewingContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#shortListContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#emailFriendContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#propListContainer {
+	MARGIN: 0px auto; WIDTH: 730px
+}
+#propDetRightDiv {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 420px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#propDetLeftDiv {
+	WIDTH: 300px; FLOAT: left
+}
+#propListToolBarCont {
+	WIDTH: 380px
+}
+#propListPrevNextCont {
+	BACKGROUND-COLOR: #094f9d; MARGIN: 10px 0px 15px; WIDTH: 350px; DISPLAY: inline; FLOAT: left; HEIGHT: 37px; COLOR: #fff; FONT-WEIGHT: bold
+}
+#propListPropertyList LI {
+	WIDTH: 718px
+}
+.propListItemTemplateDescription {
+	WIDTH: 500px
+}
+#mainToolBar {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #094f9d; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#propDetToolBarCont1 {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #094f9d; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#maintoolbarBtm {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #094f9d; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#propFavToolBar {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #094f9d; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#propFavToolBar {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #094f9d; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#propListToolBarCont {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #094f9d; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#mainToolBar {
+	WIDTH: 100%
+}
+#propDetToolBarCont1 {
+	WIDTH: 100%
+}
+#maintoolbarBtm {
+	WIDTH: 100%
+}
+#propFavToolBar {
+	WIDTH: 100%
+}
+#propFavToolBar {
+	WIDTH: 100%
+}
+#mainToolBar A {
+	COLOR: #fff; MARGIN-LEFT: 10px; TEXT-DECORATION: none
+}
+#propListToolBarCont A {
+	COLOR: #fff; MARGIN-LEFT: 10px; TEXT-DECORATION: none
+}
+#propDetToolBarCont1 A {
+	COLOR: #fff; MARGIN-LEFT: 10px; TEXT-DECORATION: none
+}
+#maintoolbarBtm A {
+	COLOR: #fff; MARGIN-LEFT: 10px; TEXT-DECORATION: none
+}
+#propFavToolBar A {
+	COLOR: #fff; MARGIN-LEFT: 10px; TEXT-DECORATION: none
+}
+#propFavToolBar A {
+	COLOR: #fff; MARGIN-LEFT: 10px; TEXT-DECORATION: none
+}
+#propListToolBarCont {
+	MARGIN: 10px 0px 15px
+}
+#propDetToolBarCont1 {
+	MARGIN: 10px 0px 15px
+}
+#mainToolBar {
+	MARGIN: 10px 0px 15px
+}
+#maintoolbarBtm {
+	MARGIN: 10px 0px 15px
+}
+#propFavToolBar {
+	MARGIN: 10px 0px 15px
+}
+#propListToolBarCont DIV {
+	DISPLAY: inline; FLOAT: left
+}
+#propDetToolBarCont1 DIV {
+	DISPLAY: inline; FLOAT: left
+}
+#mainToolBar DIV {
+	DISPLAY: inline; FLOAT: left
+}
+#maintoolbarBtm DIV {
+	DISPLAY: inline; FLOAT: left
+}
+#propFavToolBar DIV {
+	DISPLAY: inline; FLOAT: left
+}
+#propDetToolBarCont1 .prevCont {
+	MARGIN: 0px 10px 0px 0px; FLOAT: right
+}
+#propDetToolBarCont1 .nextCont {
+	MARGIN: 0px 10px 0px 0px; FLOAT: right
+}
+#propListPrevNextCont A {
+	COLOR: #fff
+}
+TD.col2 {
+	MARGIN-LEFT: 10px
+}
+UL#propListPropertyList {
+	CLEAR: both; OVERFLOW: auto
+}
+#poweringContent #propListContainer UL#propListPropertyList {
+	HEIGHT: auto; OVERFLOW: hidden
+}
+#propListContainer .pagingLinks {
+	MARGIN: 10px 0px; DISPLAY: inline; FLOAT: right; FONT-WEIGHT: bold
+}
+#propListContainer .pagingLinks TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 12px; PADDING-TOP: 0px
+}
+#propListPropertyList LI {
+	BORDER-BOTTOM: #c2c2c2 1px dotted; POSITION: relative; BORDER-LEFT: #c2c2c2 1px dotted; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #f3f3f3; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; CLEAR: both; BORDER-TOP: #c2c2c2 1px dotted; BORDER-RIGHT: #c2c2c2 1px dotted; PADDING-TOP: 10px
+}
+.propListItemTemplateAdvertHeader {
+	MARGIN: 0px 40px 10px 0px; FLOAT: left; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+.propListItemTemplatePriceText {
+	MARGIN: 0px 10px 10px 0px; FLOAT: right; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+.propListItemTemplateDescription {
+	TEXT-ALIGN: justify; MARGIN: 0px 0px 10px; FLOAT: left
+}
+.propListItemTemplatePropImage {
+	FLOAT: left; HEIGHT: 100%
+}
+.propListItemTemplatePriority {
+	TEXT-ALIGN: left; MARGIN: 0px 40px 0px 0px; WIDTH: 80px; FLOAT: left; COLOR: #000; FONT-WEIGHT: bold
+}
+.propListItemTemplateBranch {
+	TEXT-ALIGN: right; FONT-STYLE: italic; MARGIN: 0px 40px 0px 0px; FLOAT: left; FONT-SIZE: 10px
+}
+.propListItemTemplateReference {
+	TEXT-ALIGN: right; FONT-STYLE: italic; WIDTH: 100px; FLOAT: right; FONT-SIZE: 10px; MARGIN-RIGHT: 20px
+}
+#propListContainer IMG {
+	WIDTH: 200px; VERTICAL-ALIGN: bottom; MARGIN-RIGHT: 10px
+}
+.removeProp {
+	WIDTH: 10px; FLOAT: left; HEIGHT: 100%
+}
+.propListItemTemplateEmptyDiv {
+	CLEAR: both
+}
+.ribbon_sold {
+	BACKGROUND-IMAGE: url(poweringimages/soldStc.png); POSITION: absolute; WIDTH: 123px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 123px; TOP: 4px; LEFT: 5px
+}
+.ribbon_let {
+	BACKGROUND-IMAGE: url(poweringimages/letStc.png); POSITION: absolute; WIDTH: 123px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 123px; TOP: 4px; LEFT: 5px
+}
+.ribbon_underOffer {
+	BACKGROUND-IMAGE: url(poweringimages/underOffer.png); POSITION: absolute; WIDTH: 123px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 123px; TOP: 4px; LEFT: 5px
+}
+#registerCol1 #table1 {
+	WIDTH: 700px
+}
+#registerCol2 #table2 {
+	WIDTH: 700px
+}
+#registerCol1 .col1 {
+	WIDTH: 200px
+}
+#registerCol2 .col1 {
+	WIDTH: 200px
+}
+#registerCol1 .col2 {
+	WIDTH: 500px
+}
+#registerCol2 .col2 {
+	WIDTH: 500px
+}
+#registerCol1 TR {
+	HEIGHT: 30px
+}
+#registerCol2 TR {
+	HEIGHT: 30px
+}
+#divRegPages H4 {
+	MARGIN: 10px 0px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#registercontainer #lblPasswordMsg {
+	PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; PADDING-TOP: 5px
+}
+#divRegPages {
+	WIDTH: 700px; CLEAR: both
+}
+.titlebox {
+	WIDTH: 700px
+}
+#TxtNotes {
+	WIDTH: 700px
+}
+.formbuts {
+	BORDER-BOTTOM: #b2b2b2 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #dcdcdc; MARGIN-TOP: 3px; HEIGHT: 21px; COLOR: #333333; MARGIN-LEFT: 5px; BORDER-TOP: #cccccc 1px solid; CURSOR: pointer; BORDER-RIGHT: #b2b2b2 1px solid
+}
+#propDetPowLogoCont {
+	TEXT-ALIGN: center; CLEAR: both
+}
+#searchContainer .scrolling {
+	CLEAR: both
+}
+#searchContainer .scrolling #titlebox H4 {
+	MARGIN-BOTTOM: 10px; FONT-WEIGHT: bold
+}
+#buttonContBtm {
+	DISPLAY: none
+}
+#searchContainer #formTable {
+	WIDTH: 330px; FLOAT: left; MARGIN-RIGHT: 20px
+}
+#searchContainer FIELDSET#basicSearch {
+	MARGIN: 0px 20px 0px 0px; WIDTH: 350px; DISPLAY: inline; FLOAT: left
+}
+#searchContainer FIELDSET#advancedSearch {
+	WIDTH: 350px; FLOAT: left
+}
+#searchContainer #leftPane {
+	WIDTH: 370px; FLOAT: left
+}
+#searchContainer FIELDSET#buttons {
+	CLEAR: both
+}
+#searchContainer FIELDSET#highLowDD INPUT#rdoSort_1 LABEL {
+	WIDTH: 100px; FLOAT: left
+}
+#searchContainer FIELDSET#basicSearch LABEL.searchLabel {
+	MARGIN: 10px 0px; FLOAT: left
+}
+#searchContainer FIELDSET#basicSearch SELECT {
+	WIDTH: 350px; FLOAT: left
+}
+#searchContainer FIELDSET#basicSearch INPUT {
+	WIDTH: 350px; FLOAT: left
+}
+#searchContainer FIELDSET#highLowDD INPUT#rdoSort_0 {
+	MARGIN: 0px 10px; WIDTH: 20px; FLOAT: left
+}
+#searchContainer FIELDSET#highLowDD {
+	WIDTH: 20px; FLOAT: left
+}
+#searchContainer #priceOrder {
+	DISPLAY: inline
+}
+#searchContainer FIELDSET#highLowDD {
+	MARGIN: 10px 0px; WIDTH: 350px; FLOAT: left
+}
+#searchContainer FIELDSET#basicSearch .currencyLabel {
+	DISPLAY: none
+}
+#searchContainer FIELDSET#basicSearch .currencyDropdown {
+	DISPLAY: none
+}
+#searchContainer FIELDSET#basicSearch LEGEND {
+	MARGIN: 0px 0px 10px; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+#searchContainer FIELDSET#advancedSearch LEGEND {
+	MARGIN: 0px 0px 10px; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+#searchContainer #treenavTable {
+	WIDTH: 300px; FLOAT: left
+}
+#searchContainer #formTable .col1 {
+	WIDTH: 200px; HEIGHT: 30px
+}
+#searchContainer #titlebox H4 {
+	MARGIN: 0px 0px 10px
+}
+#searchContainer .Scrolling H4 {
+	MARGIN: 0px 0px 10px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#searchContainer #mainToolBar {
+	CLEAR: both
+}
+#searchContainer #titlebox {
+	WIDTH: 700px; CLEAR: both
+}
+.explRow {
+	FONT-STYLE: italic; HEIGHT: 100px
+}
+#requestViewingContainer #PnlRequest {
+	DISPLAY: none
+}
+#PnlCustDetailsForm H4 {
+	MARGIN: 10px 0px; FONT-WEIGHT: bold
+}
+#PnlCustDetailsForm {
+	WIDTH: 700px
+}
+#PnlCustDetailsForm TABLE {
+	CLEAR: both
+}
+#pnlRequestBottom .LeftEnd {
+	WIDTH: 0px; FONT-SIZE: 1px
+}
+#pnlRequestBottom #TABLE1 {
+	HEIGHT: 30px
+}
+#PnlCustDetailsForm #addressTable {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 600px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#PnlCustDetailsForm #telTable {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 600px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#PnlCustDetailsForm #addressTable .col1 {
+	WIDTH: 200px; HEIGHT: 30px
+}
+#PnlCustDetailsForm #telTable .col1 {
+	WIDTH: 200px; HEIGHT: 30px
+}
+#PnlCustDetailsForm #addressTable .col2 {
+	WIDTH: 400px; HEIGHT: 30px
+}
+#PnlCustDetailsForm #telTable .col2 {
+	WIDTH: 400px; HEIGHT: 30px
+}
+#loginContainer #mainToolBar DIV#prevCont {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+#loginContainer #mainToolBar DIV#registerCont {
+	FLOAT: left
+}
+#loginContainer #mainToolBar DIV#forgotPassCont {
+	FLOAT: right
+}
+#loginContainer TABLE {
+	CLEAR: both
+}
+#loginContainer .titleRow {
+	FONT-WEIGHT: bold
+}
+#loginContainer .footnoteTxt {
+	FONT-STYLE: italic
+}
+#loginContainer {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 600px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#loginContainer #loginContent .col1 {
+	WIDTH: 200px; HEIGHT: 30px
+}
+#loginContainer #loginContent .col2 {
+	WIDTH: 400px; HEIGHT: 30px
+}
+#loginContainer SPAN.loginError {
+	PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #000; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+#shortListContainer #noProp {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; CLEAR: both; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#propertyDetailsContainer {
+	PADDING-BOTTOM: 10px
+}
+#propDetAddressPriceCont1 {
+	BORDER-BOTTOM: #8c8c8c 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+#propDetMainImgCont1 {
+	TEXT-ALIGN: center; MARGIN: 10px 6px 0px; WIDTH: 300px; FLOAT: left
+}
+#propDetMainImgCont1 IMG {
+	WIDTH: 290px
+}
+#propDetThumbnailCont1 {
+	MARGIN: 6px 0px 0px 6px; WIDTH: 300px; FLOAT: left
+}
+#propDetThumbnailCont1 IMG {
+	MARGIN: 0px 0px 6px 6px; MAX-WIDTH: 141px; MAX-HEIGHT: 120px
+}
+#propDetPropRefCont1 {
+	TEXT-ALIGN: left; MARGIN: 10px 0px; WIDTH: 100%; FLOAT: left; FONT-WEIGHT: bold
+}
+#propDetPropRefCont1 SPAN {
+	MARGIN: 0px 10px 0px 0px; FONT-SIZE: 14px
+}
+#propDetIconsCont1 {
+	BORDER-BOTTOM: #c9c9c9 1px solid; BORDER-LEFT: #c9c9c9 1px solid; PADDING-BOTTOM: 15px; BACKGROUND-COLOR: #f1f1f1; MARGIN: 10px 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: left; BORDER-TOP: #c9c9c9 1px solid; BORDER-RIGHT: #c9c9c9 1px solid; PADDING-TOP: 15px
+}
+#propDetIconsCont1 LI {
+	WIDTH: 100%; FLOAT: left
+}
+#propDetIconsCont1 A {
+	COLOR: #000; MARGIN-LEFT: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#propDetIconsCont1 SPAN {
+	POSITION: relative; MARGIN: 0px 0px 0px 10px; TOP: -10px
+}
+#propDetShortDescCont1 {
+	TEXT-ALIGN: left; MARGIN: 10px 0px 0px; WIDTH: 100%; DISPLAY: block; CLEAR: both
+}
+#propDetStarItemsCont1 {
+	MARGIN: 0px 0px 0px 10px; WIDTH: 100%
+}
+#propDetStarItemsCont1 LI {
+	MARGIN: 0px 5px 5px 0px; WIDTH: 48%; DISPLAY: inline; FLOAT: left
+}
+#propDetRoomDetCont1 {
+	TEXT-ALIGN: left; MARGIN: 10px 0px 0px; WIDTH: 100%; FLOAT: left
+}
+#propDetRoomDetCont1 .roomHeading {
+	MARGIN: 0px 3px 0px 0px
+}
+#propDetRoomDetCont1 P {
+	TEXT-ALIGN: left
+}
+#propDetFavouriteCont1 {
+	BORDER-BOTTOM: #c9c9c9 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #c9c9c9 1px solid; PADDING-BOTTOM: 10px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #f1f1f1; MARGIN: 10px 0px 0px; PADDING-LEFT: 0px; WIDTH: 48%; PADDING-RIGHT: 0px; FLOAT: left; BORDER-TOP: #c9c9c9 1px solid; BORDER-RIGHT: #c9c9c9 1px solid; PADDING-TOP: 10px
+}
+SPAN.priceOrder INPUT {
+	WIDTH: 50px; FLOAT: left
+}
+SPAN.priceOrder LABEL {
+	WIDTH: 50px; FLOAT: left
+}
+.propDetPrintFriendlyCont {
+	BORDER-BOTTOM: #c9c9c9 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #c9c9c9 1px solid; PADDING-BOTTOM: 10px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #f1f1f1; MARGIN: 10px 0px 0px; PADDING-LEFT: 0px; WIDTH: 48%; PADDING-RIGHT: 0px; FLOAT: right; BORDER-TOP: #c9c9c9 1px solid; BORDER-RIGHT: #c9c9c9 1px solid; PADDING-TOP: 10px
+}
+.propDetPrintFriendlyCont A {
+	COLOR: #000
+}
+#propDetFavouriteCont1 A {
+	COLOR: #000
+}
+#propDetPowLogoCont {
+	TEXT-ALIGN: center; CLEAR: both
+}
+#propDetPowLogoCont IMG {
+	BACKGROUND-IMAGE: url(/images/poweringLogo.gif); WIDTH: 111px; HEIGHT: 31px
+}
+TABLE#subtoolLinks INPUT {
+	MARGIN: 0px 0px 10px
+}
+.registerBody #maintoolbarBtm {
+	DISPLAY: block
+}
+#propDetPrintFriendlyImage {
+	DISPLAY: none
+}
+SPAN#propAddress {
+	MARGIN: 0px 0px 0px 10px; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+SPAN#propPrice {
+	MARGIN: 0px 0px 0px 50px; FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+#propDetPropRefCont1 #propBranch {
+	CLEAR: both
+}
+#propDetPropRefCont1 #propReference {
+	CLEAR: both
+}
+SPAN.roomHeading {
+	FONT-WEIGHT: bold
+}
+P.roomDescription {
+	MARGIN-BOTTOM: 20px
+}
+#emailFriendContainer #PnlSendEmail {
+	WIDTH: 100%; FLOAT: left
+}
+#emailFriendContainer #propertyDetail {
+	MARGIN: 20px 0px 0px; WIDTH: 100%; FLOAT: left
+}
+#emailFriendContainer H4 {
+	MARGIN: 0px 40px 10px 0px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#PnlSendEmail .col4 INPUT {
+	MARGIN: 0px 15px
+}
+#powBody {
+	
+}
+#powContainer {
+	TEXT-ALIGN: left; MARGIN: 0px; WIDTH: 300px; OVERFLOW: hidden
+}
+#powContainer IMG {
+	MARGIN: 5px 0px; WIDTH: 300px; FLOAT: left
+}
+#powContainer #headingContainer {
+	TEXT-ALIGN: left; MARGIN: 0px 0px 3px; WIDTH: 300px; FLOAT: left; FONT-WEIGHT: bold
+}
+#powContainer #priceContainer {
+	TEXT-ALIGN: left; MARGIN: 0px 0px 3px; WIDTH: 300px; FLOAT: left; FONT-WEIGHT: bold
+}
+#powContainer #mainTextContainer {
+	WIDTH: 300px; FLOAT: left
+}
+#powContainer #mainTextContainer A {
+	COLOR: #094f9d
+}
+#newsItemHolder {
+	WIDTH: 100%
+}
+#newsHeader1 {
+	PADDING-BOTTOM: 15px; FONT-WEIGHT: bold
+}
+#newsContent1 {
+	PADDING-BOTTOM: 15px; BORDER-TOP: #666666 1px dotted; PADDING-TOP: 10px
+}
+#newsItem .col2 {
+	TEXT-ALIGN: right; PADDING-RIGHT: 10px; COLOR: #666666
+}
+#contactMeContainer LEGEND {
+	MARGIN: 0px 0px 10px; FONT-WEIGHT: bold
+}
+#contactMeContainer #subToolBar #sendCont {
+	MARGIN: 10px 0px 0px
+}
+#propFavPrintFriendlyCont {
+	DISPLAY: none
+}
+#contactMeContainer FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 0px
+}
+#contactMeContainer #propContainer {
+	WIDTH: 560px; FLOAT: left
+}
+#contactMeContainer #propTitle H4 {
+	MARGIN: 0px 0px 10px; FONT-WEIGHT: bold
+}
+#propDirectHeader #agentLogo {
+	TEXT-ALIGN: center
+}
+#propDirectHeader #agencyDetails {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 10px
+}
+#propDirectHeader #agencyDetails DIV {
+	MARGIN: 0px 10px 0px 0px; DISPLAY: inline; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
+}
+.requestViewingBody .weekDayStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .selectedDateStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .clearDateStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .weekendStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .dayHeaderStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .goToTodayStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .offMonthStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .todayDayStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .formels {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .monthHeaderStyle {
+	BACKGROUND-COLOR: #fff
+}
+.requestViewingBody .weekendStyle {
+	BACKGROUND-COLOR: #f1f1f1
+}
+.requestViewingBody .dayHeaderStyle {
+	BACKGROUND-COLOR: #c8c8c8
+}
+.requestViewingBody .monthHeaderStyle {
+	BACKGROUND-COLOR: #545454; COLOR: #fff
+}
+.requestViewingBody .goToTodayStyle {
+	BACKGROUND-COLOR: #000; COLOR: #fff
+}
+.requestViewingBody .offMonthStyle {
+	BACKGROUND-COLOR: #f7fca8
+}
+TD#price {
+	FONT-WEIGHT: bold
+}
+TD#powlink {
+	FONT-WEIGHT: bold
+}
+TD#paging {
+	HEIGHT: 18px; VERTICAL-ALIGN: top; FONT-WEIGHT: bold
+}
+.select {
+	BORDER-BOTTOM: #cec9c3 1px solid; BORDER-LEFT: #cec9c3 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: 12px; BORDER-TOP: #cec9c3 1px solid; BORDER-RIGHT: #cec9c3 1px solid; PADDING-TOP: 3px
+}
+.DefaultPinOffset {
+	POSITION: absolute; TOP: -20px; LEFT: 0px
+}
+.ActionButton {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FLOAT: left; COLOR: navy; FONT-SIZE: 11px; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.ButtonDisabled {
+	COLOR: gray
+}
+.ydsf {
+	POSITION: relative; MARGIN: 4px -4px -4px 4px; DISPLAY: block; BACKGROUND: url(images/shadow-grid.gif)
+}
+HTML > BODY .ydsf {
+	MARGIN: 8px -8px -8px 8px; WIDTH: 154px; BACKGROUND: url(images/shadow.png) no-repeat right bottom; HEIGHT: 116px
+}
+.ydsf:before {
+	WIDTH: 8px; DISPLAY: block; HEIGHT: 8px; CONTENT: " "
+}
+.ydsf:after {
+	WIDTH: 8px; DISPLAY: block; HEIGHT: 8px; CONTENT: " "
+}
+.ydsf:before {
+	POSITION: absolute; MARGIN: -8px 0px 0px auto; BACKGROUND-POSITION: right top; RIGHT: 0px; TOP: 0px
+}
+.ydsf:after {
+	MARGIN: -8px 0px 0px -8px; BACKGROUND-POSITION: left bottom
+}
+.ydsf .inner {
+	POSITION: relative; BORDER-BOTTOM-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: black; DISPLAY: block; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-COLOR: black; OVERFLOW: hidden; BORDER-LEFT-COLOR: black; BORDER-LEFT-WIDTH: 1px; TOP: -4px; LEFT: -4px
+}
+HTML > BODY .ydsf .inner {
+	BORDER-BOTTOM-COLOR: black; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: black; MARGIN: 0px; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black; BORDER-LEFT-WIDTH: 1px; TOP: -8px; LEFT: -8px
+}
+BODY#mapBody {
+	MARGIN: 0px
+}
+.hdg {
+	BORDER-BOTTOM: #cec9c3 1px solid; POSITION: absolute; PADDING-BOTTOM: 8px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 5px; WIDTH: 164px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-POSITION: right center; HEIGHT: 12px; COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 8px; TOP: 0px; LEFT: 0px
+}
+#searchBox {
+	POSITION: relative; WIDTH: 169px; DISPLAY: block; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+#searchBoxInnerDiv {
+	BORDER-BOTTOM: #cec9c3 1px solid; POSITION: absolute; BORDER-LEFT: #cec9c3 1px solid; WIDTH: 100%; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND: #eeeeee; HEIGHT: 100%; COLOR: #333333; FONT-SIZE: 12px; BORDER-TOP: #cec9c3 1px; BORDER-RIGHT: #cec9c3 1px solid; TOP: 0px; LEFT: 0px
+}
+#myMap {
+	POSITION: absolute; WIDTH: 428px; HEIGHT: 335px; TOP: 0px; LEFT: 171px
+}
+#mainToolbarContainer {
+	POSITION: absolute; WIDTH: 600px; HEIGHT: 24px; TOP: 0px; LEFT: 0px
+}
+.mapPage {
+	BORDER-BOTTOM: #cec9c3 1px solid; POSITION: absolute; WIDTH: 599px; HEIGHT: 335px; BORDER-TOP: #cec9c3 1px solid; BORDER-RIGHT: #cec9c3 1px solid; TOP: 24px; LEFT: 0px
+}

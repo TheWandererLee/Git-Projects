@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+
+
+RewriteCond %{HTTP_HOST}   !^www\.                                    [NC]
+RewriteCond %{HTTP_HOST}   ^eastcoastmovingllc.com$                   [NC]
+RewriteRule ^(.*)$         http://www.eastcoastmovingllc.com/$1       [R=301,L]
+
+RewriteRule ^([a-z0-9_-]+)/?$   ?page=$1                          [NC,L]

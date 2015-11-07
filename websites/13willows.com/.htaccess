@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+#dynamic pages
+RewriteRule ^([a-z]+)/?$    /index.php?page=$1 [L]
+
+#portfolio page selections
+RewriteRule ^portfolio/([0-9]+)?$   ?page=portfolio&option=$1    [L]
+
+#removing trailing slashes
+#RewriteRule ^portfolio/.*$  ../?page=portfolio [R=301,L]

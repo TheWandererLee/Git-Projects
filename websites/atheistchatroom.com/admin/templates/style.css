@@ -1,0 +1,121 @@
+/** 
+
+CSS Notes: 
+
+top | right | bottom | left
+
+margin: 0 0 0 0; 
+padding: 0 0 0 0; 
+
+**/
+
+.adminBody
+{
+	margin: 10px 10px 10px 10px; 
+	padding: 0 0 0 0; 
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+}
+
+.header
+{
+	font-weight: bold;
+}
+
+.result
+{
+	color: green;
+}
+
+.menu
+{
+	color: #000000;
+}
+
+.captcha
+{
+	color: #000000;
+	background-color: #84B2DE;
+	border: 1px solid #84B2DE;
+	padding: 2px;
+}
+
+.mainheader
+{
+	background-color: #EDF1FA;
+	border: 1px solid #84B2DE;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.mainheadermenu
+{
+	background-color: #EDF1FA;
+	border: 1px solid #84B2DE;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.footer
+{
+	background-color: #EDF1FA;
+	border: 1px solid #84B2DE;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logintable
+{
+	background-color: #EDF1FA;
+	border: 1px solid #84B2DE;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+}
+
+table
+{
+	background-color: #EDF1FA;
+	border: 1px solid #84B2DE;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+	width: 100%;
+}
+
+textarea
+{
+	height:200px;
+	width:300px;
+	border: 1px solid #84B2DE;
+}
+
+tr
+{
+	vertical-align:top;
+}
+
+input
+{
+	border: 1px solid #84B2DE;
+}
+
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:hover {text-decoration: underline; color: #000000;}

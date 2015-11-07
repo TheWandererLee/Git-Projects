@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;padding:0}
+
+html, body {
+	background: #EEE url('../images/bg.gif') repeat-x scroll;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+
+a { text-decoration: none; color: #07B; }
+a:hover { text-decoration: underline; }
+
+.body {
+	width: 975px;
+	margin: 0 auto;
+}
+
+.cleared { clear: both; }
+.image { text-align: center; }
+
+.image img {
+	border: 1px solid #99C;
+	padding: 4px;
+}
+
+.title { width: 100%; position: absolute; left: 0; }
+.title div.titleImage { position: relative; width: 450px; height: 232px; margin: 0 auto; }
+.title div.titleImage #titleImage { display: none; position: absolute; left: 24px; width: 450px; height: 232px; }
+
+.body .container { background: url('../images/mainbg.gif') repeat-y; }
+
+.body .header {
+	background: url('../images/head.gif');
+	width: 975px;
+	height: 524px;
+}
+
+.body .foot {
+	background: url('../images/foot.gif');
+	width: 975px;
+	height: 87px;
+}
+
+.body .navigation {
+	margin-top: -280px;
+	margin-left: 128px;
+	margin-right: 0px;
+	float: left;
+	text-align: right;
+	display: inline;
+}
+.navigation ul { list-style: none; }
+.navigation li { line-height: 32px; }
+.navigation a { font-family: Verdana, Geneva, sans-serif; font-weight: bold; font-size: 24px; }
+
+.body .content {
+	margin-top: -280px;
+	margin-left: 300px;
+	float: left;
+	display: inline;
+	width: 644px;
+}

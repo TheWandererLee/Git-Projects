@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Cricky's Tags</title>
+    
+    <style type="text/css">
+        body { background: #222; }
+        
+        /* @font-face {
+            font-family: 'AT';
+            src: url('fonts/at.ttf');
+            src: local('American Typewriter'), url('fonts/at.ttf') format('truetype');
+        } */
+        #content {
+            margin: 0 auto;
+            
+            border-radius: 24px;
+            padding: 20px 30px 30px;
+            width: 610px;
+            background: #F5F5F5;
+            font-family: "Courier New", sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        
+        #content img.center {
+            margin: 0 auto;
+            display: block;
+        }
+        
+        #tagForm {
+            outline: solid 1px #CCC;
+            border-radius: 16px;
+            text-align: center;
+        }
+        
+        /* #tagForm table { margin: 16px auto; }
+        #tagForm table tr td { text-align: right; }
+        #tagForm table tr td:last-child { text-align: left; } */
+        
+        #tagForm .simpleTable { clear: both; display: block; margin: 16px auto 32px; width: 100%; }
+        
+        #tagForm input.tagText { width: 118px; font-family: "Courier New", sans-serif; font-weight: bold; font-size: 13px; display: block; float: none; margin: 1px auto; height: 13px; }
+        
+        .simpleTable .trow { clear: both; width: 100%; }
+        .simpleTable .trow div { width: 50%; float: left; text-align: left; }
+        .simpleTable .trow div:first-child { text-align: right; margin-top: 4px; }
+        
+        .simpleTable .trowleft { clear: both; width: 100%; }
+        .simpleTable .trowleft div { width: 60%; float: left; text-align: left; }
+        .simpleTable .trowleft div:first-child { width: 40%; text-align: right; margin-top: 4px; }
+        
+        b.red { color: #F00; }
+        
+        #dogTags { clear: both; }
+        #dogTags .tag { width: 50%; text-align: center; margin: 0 auto; }
+        
+        #dogTags .tagMaker1 { position: relative; }
+        #dogTags .tagMaker2 { position: relative; }
+        
+        #dogTags .tagMaker1 .silencer { left: 26px; }
+        #dogTags .tagMaker1 .chain { left: -51px; }
+        #dogTags .tagMaker1 .tagText { left: 78px; }
+        
+        #dogTags .tagback { position: relative; left: 24px; top: -1px; display: block; }
+        
+        #dogTags .silencer { position: absolute; left: 24px; top: 0px; }
+        #dogTags .chain { position: absolute; left: -53px; top: 24px; }
+        #dogTags div.tagText { position: absolute; left: 76px; top: 26px; text-align: left; font-size: 18px; font-family: "Courier New", "Courier", sans-serif; text-shadow: -1px 1px 1px #000, 1px -1px 1px #FFF; color: #986F2D; letter-spacing: 1px; }
+        
+        #dogTags .buttons { background: #FFF; border: #444 1px solid; width: 118px; height: 31px; margin: 0 auto; padding-top: 1px; border-radius: 3px; }
+        #dogTags .buttons img:hover { cursor: pointer; }
+        
+        #tagForm .foot { position: relative; clear: both; padding-top: 16px; z-index: 100; display: block; }
+    </style>
+    
+    <script type="text/javascript">
+        String.prototype.ltrim=function(){return this.replace(/^\s+/,'');};
+        String.prototype.trim=function(){return this.replace(/^\s+|\s+$/g, '');};
+        
+        window.onload = function() {
+            $('tag1Text1').onchange = $('tag1Text2').onchange = $('tag1Text3').onchange = $('tag1Text4').onchange = $('tag1Text5').onchange = function(){tag1Changed()};
+            //$('tag2Text1').onchange = $('tag2Text2').onchange = $('tag2Text3').onchange = $('tag2Text4').onchange = $('tag2Text5').onchange = function(){tag2Changed()};
+            
+            $('tag1Text1').onkeyup = $('tag1Text2').onkeyup = $('tag1Text3').onkeyup = $('tag1Text4').onkeyup = $('tag1Text5').onkeyup = function(){tag1Changed()};
+            //$('tag2Text1').onkeyup = $('tag2Text2').onkeyup = $('tag2Text3').onkeyup = $('tag2Text4').onkeyup = $('tag2Text5').onkeyup = function(){tag2Changed()};
+            
+            /*
+            $('tag1Text1').addEventListener('change', tag1Changed, false);
+            $('tag1Text2').addEventListener('change', tag1Changed, false);
+            $('tag1Text3').addEventListener('change', tag1Changed, false);
+            $('tag1Text4').addEventListener('change', tag1Changed, false);
+            $('tag1Text5').addEventListener('change', tag1Changed, false);
+            
+            $('tag1Text1').addEventListener('keyup', tag1Changed, false);
+            $('tag1Text2').addEventListener('keyup', tag1Changed, false);
+            $('tag1Text3').addEventListener('keyup', tag1Changed, false);
+            $('tag1Text4').addEventListener('keyup', tag1Changed, false);
+            $('tag1Text5').addEventListener('keyup', tag1Changed, false);
+            
+            $('tag2Text1').addEventListener('change', tag2Changed, false);
+            $('tag2Text2').addEventListener('change', tag2Changed, false);
+            $('tag2Text3').addEventListener('change', tag2Changed, false);
+            $('tag2Text4').addEventListener('change', tag2Changed, false);
+            $('tag2Text5').addEventListener('change', tag2Changed, false);
+            
+            $('tag2Text1').addEventListener('keyup', tag2Changed, false);
+            $('tag2Text2').addEventListener('keyup', tag2Changed, false);
+            $('tag2Text3').addEventListener('keyup', tag2Changed, false);
+            $('tag2Text4').addEventListener('keyup', tag2Changed, false);
+            $('tag2Text5').addEventListener('keyup', tag2Changed, false);
+            */
+            
+            $('tagType').onchange = function() {
+                $('tag1Back').src = 'images/dt_'+$('tagType').value.toLowerCase()+'.png';
+                switch ($('tagType').value.toLowerCase()) {
+                    case 'dull':
+                        $('tag1Text').style.color = '#9B9CA0';
+                        $('tag1Text').style.textShadow = '-1px 1px 1px #222, 1px -1px 1px #FFF';
+                        break;
+                    case 'shiny':
+                        $('tag1Text').style.color = '#BBB';
+                        $('tag1Text').style.textShadow = '-1px 1px 1px #333, 1px -1px 1px #FFF';
+                        break;
+                    case 'copper':
+                        $('tag1Text').style.color = '#DFA786';
+                        $('tag1Text').style.textShadow = '-1px 1px 1px #410, 1px -1px 1px #FFC';
+                        break;
+                    case 'brass':
+                        $('tag1Text').style.color = '#BAAA53';
+                        $('tag1Text').style.textShadow = '-1px 1px 1px #310, 1px -1px 1px #FDA';
+                        break;
+                    case 'black':
+                        $('tag1Text').style.color = '#BBB';
+                        $('tag1Text').style.textShadow = '-1px 1px 1px #000, 1px -1px 1px #999';
+                        break;
+                    default:
+                        break;
+                }
+            }
+            $('chainType1').onchange = function() {
+                $('tag1Chain').src = 'images/cs_'+$('chainType1').value.toLowerCase()+'.png';
+            }
+            
+            $('silencerType1').onchange = function() {
+                $('tag1Silencer').src = 'images/si_'+$('silencerType1').value.toLowerCase()+'.png';
+            }
+            
+            tag1Changed(); $('tagType').onchange();
+        }
+        
+        function tag1Changed() {
+            var tmp = parseText($('tag1Text1').value) + '<br>' +
+            parseText($('tag1Text2').value) + '<br>' +
+            parseText($('tag1Text3').value) + '<br>' +
+            parseText($('tag1Text4').value) + '<br>' +
+            parseText($('tag1Text5').value);
+            
+            for (var i=1;i<=5;i++) {
+                if ($('tag1Text'+i).value != parseText($('tag1Text'+i).value,false)) { // Modify characters if there are any disallowed
+                    $('tag1Text'+i).style.backgroundColor = '#F99';
+                } else {
+                    $('tag1Text'+i).style.backgroundColor = '#FFF';
+                }
+            }
+            
+            $('tag1Text').innerHTML = tmp;
+        }
+        
+        function parseText(input,replaceSpaces) {
+            var ret = input.replace(/[^a-z0-9\s@&',.\-\/()*\+\~!\?":]/gi,'');
+            
+            if (typeof replaceSpaces == 'undefined') replaceSpaces = true;
+            if (replaceSpaces) {
+                ret = ret.toUpperCase();
+                ret = ret.replace(/&/g,'&amp;');
+                ret = ret.replace(/\s/g,'&nbsp;');
+                
+            }
+            return ret;
+        }
+        
+        function tagAction(tag,action) {
+            switch (action) {
+                case 'left':
+                    for (var i=1;i<=5;i++) {
+                        $('tag'+tag+'Text'+i).value = $('tag'+tag+'Text'+i).value.ltrim();
+                    }
+                    break;
+                case 'center':
+                    for (var i=1;i<=5;i++) {
+                        $('tag'+tag+'Text'+i).value = $('tag'+tag+'Text'+i).value.trim();
+                        var tmp = $('tag'+tag+'Text'+i).value;
+                        
+                        $('tag'+tag+'Text'+i).value = Array(Math.floor(((i==1||i==5?15:16)-tmp.length)/2)).join(' ') + tmp;
+                    }
+                    break;
+                case 'clear':
+                    for (var i=1;i<=5;i++) {
+                        $('tag'+tag+'Text'+i).value = '';
+                    }
+                    break;
+                case 'copy':
+                    for (var i=1;i<=5;i++) {
+                        $('tag'+(tag==1?'2':'1')+'Text'+i).value = $('tag'+tag+'Text'+i).value;
+                    }
+                    tag = tag==1?2:1;
+                    break;
+                default:
+                    break;
+            }
+            if (tag==1) tag1Changed(); else tag2Changed();
+        }
+        
+        function submitTag() {
+            if ($('email').value == '') {
+                alert("Please provide a correct email address, or your order can not be processed.");
+            } else {
+                document.forms['tagForm'].submit();
+            }
+        }
+        
+        function $(id) { return document.getElementById(id); }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <img src="images/contact.jpg" class="center">
+        <br>Please fill in this form after you have placed an order with us. Ensure that you fill this in with accurate details as we will cross-reference them with the details on the orders. To refresh your memory again, the first and last lines can hold a maximum of 13 characters while the middle three can hold 14 characters. All letters will be automatically capitalized.
+        
+        <br><br><b class="red">Usable characters are as follows:<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 @&',.-/()*+~!?":</b>
+        <br><br><form id="tagForm" action="tagSubmit.php" method="post">
+            <u>Please fill in this form as accurately as possible</u>
+                
+            <div class="simpleTable">
+                <div class="trow"><div>Full Name:</div><div><input type="text" name="name"></div></div>
+                <div class="trow"><div>Ebay Username:</div><div><input type="text" name="ebayname"></div></div>
+                <div class="trow"><div><b class="red">(Required) *</b>Email Address:</div><div><input type="text" name="email" id="email"></div></div>
+                <div class="trow"><div>Tag Type:</div><div><select name="tagType" id="tagType"><option value="Dull">Dull</option><option value="Shiny">Shiny</option><option value="Brass">Brass</option><option value="Copper">Copper</option><option value="Black">Black</option></select></div></div>
+            </div>
+            
+            <div id="dogTags">
+                <div class="tag">
+                    <div class="simpleTable">
+                        <!--<div class="trow">
+                            <div>Tag Type:</div>
+                            <div><select name="tagType1"><option value="dull">Dull</option><option value="shiny">Shiny</option><option value="brass">Brass</option><option value="copper">Copper</option><option value="black">Black</option></select></div>
+                        </div>-->
+                        <div class="trowleft">
+                            <div>Silencer:</div>
+                            <div><select name="silencerType1" id="silencerType1">
+                                <option value="Black">Black</option><option value="Blue">Blue</option><option value="Red">Red</option>
+                                <option value="Orange">Orange</option><option value="Yellow">Yellow</option><option value="Pink">Pink</option>
+                                <option value="Purple">Purple</option><option value="Lime_Green">Lime Green</option><option value="Olive_Green">Olive Green</option>
+                                <option value="White">White</option><option value="Burgundy">Burgundy</option><option value="Brown">Brown</option>
+                                <option value="Sky_Blue">Sky Blue</option><option value="Dark_Blue">Dark Blue</option><option value="Grey">Grey</option>
+                                <option value="Rainbow">Rainbow</option><option value="Red_White_and_Blue">Red White and Blue</option><option value="Army_Camo">Army Camo</option>
+                                <option value="Blue_Camo">Blue Camo</option><option value="Pink_Camo">Pink Camo</option><option value="Desert_Camo">Desert Camo</option>
+                                <option value="Winter_Camo">Winter Camo</option><option value="Flames">Flames</option><option value="German">German</option>
+                                <option value="Blue_GITD">Blue Glow in the Dark</option><option value="Pink_GITD">Pink Glow in the Dark</option><option value="Green_GITD">Green Glow in the Dark</option>
+                                <option value="Yellow_GITD">Yellow Glow in the Dark</option>
+                            </select></div>
+                        </div>
+                        <div class="trowleft">
+                            <div>Chain (12"):</div>
+                            <div><select name="chainType1" id="chainType1">
+                                <option value="Steel">Stainless Steel</option><option value="Brass">Brass</option><option value="Copper">Copper</option><option value="Black">Black</option>
+                            </select></div>
+                        </div>
+                    </div>
+                    
+                    <div class="tagMaker1">
+                        <img id="tag1Back" class="tagback" src="images/dt_dull.png">
+                        <img id="tag1Silencer" class="silencer" src="images/si_black.png">
+                        <img id="tag1Chain" class="chain" src="images/cs_steel.png">
+                        <div id="tag1Text" class="tagText"></div>
+                            
+                        <input class="tagText" type="text" size="14" maxlength="13" name="tag1Text1" id="tag1Text1" value="">
+                        <input class="tagText" type="text" size="14" maxlength="14" name="tag1Text2" id="tag1Text2" value="    CREATE">
+                        <input class="tagText" type="text" size="14" maxlength="14" name="tag1Text3" id="tag1Text3" value="   YOUR TAG">
+                        <input class="tagText" type="text" size="14" maxlength="14" name="tag1Text4" id="tag1Text4" value="     NOW!">
+                        <input class="tagText" type="text" size="14" maxlength="13" name="tag1Text5" id="tag1Text5" value="">
+                        
+                        <div class="buttons">
+                            <img src="images/btnAlignleft.gif" title="Left Align" alt="Left Align" onclick="tagAction(1,'left')">
+                            <img src="images/btnAligncenter.gif" title="Center Align" alt="Center Align" onclick="tagAction(1,'center')">
+                            <img src="images/btnClear.gif" title="Clear" alt="Clear" onclick="tagAction(1,'clear')">
+                            <!--<img src="images/btnRight.gif" title="Copy to Other Tag" alt="Copy to Other Tag" onclick="tagAction(1,'copy')">-->
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="tag">
+                    Dog Tag Two
+                    <div class="simpleTable">
+                        <div class="trowleft">
+                            <div>Silencer:</div>
+                            <div><select name="silencerType2" id="silencerType2">
+                                <option value="Black">Black</option><option value="Blue">Blue</option><option value="Red">Red</option>
+                                <option value="Orange">Orange</option><option value="Yellow">Yellow</option><option value="Pink">Pink</option>
+                                <option value="Purple">Purple</option><option value="Lime_Green">Lime Green</option><option value="Olive_Green">Olive Green</option>
+                                <option value="White">White</option><option value="Burgundy">Burgundy</option><option value="Brown">Brown</option>
+                                <option value="Sky_Blue">Sky Blue</option><option value="Dark_Blue">Dark Blue</option><option value="Grey">Grey</option>
+                                <option value="Rainbow">Rainbow</option><option value="Red_White_and_Blue">Red White and Blue</option><option value="Army_Camo">Army Camo</option>
+                                <option value="Blue_Camo">Blue Camo</option><option value="Pink_Camo">Pink Camo</option><option value="Desert_Camo">Desert Camo</option>
+                                <option value="Winter_Camo">Winter Camo</option><option value="Flames">Flames</option><option value="German">German</option>
+                                <option value="Blue_GITD">Blue Glow in the Dark</option><option value="Pink_GITD">Pink Glow in the Dark</option><option value="Green_GITD">Green Glow in the Dark</option>
+                                <option value="Yellow_GITD">Yellow Glow in the Dark</option>
+                            </select></div>
+                        </div>
+                        <div class="trowleft">
+                            <div>Chain (4.5"):</div>
+                            <div><select name="chainType2" id="chainType2">
+                                <option value="Steel">Stainless Steel</option><option value="Brass">Brass</option><option value="Copper">Copper</option><option value="Black">Black</option>
+                            </select></div>
+                        </div>
+                    </div>
+                    
+                    <div class="tagMaker2">
+                        <img id="tag2Back" class="tagback" src="images/dt_dull.png">
+                        <img id="tag2Silencer" class="silencer" src="images/si_black.png">
+                        <img id="tag2Chain" class="chain" src="images/cs_steel.png">
+                        <div id="tag2Text" class="tagText"></div>
+                            
+                        <input class="tagText" type="text" size="14" maxlength="13" name="tag2Text1" id="tag2Text1" value="LAST">
+                        <input class="tagText" type="text" size="14" maxlength="14" name="tag2Text2" id="tag2Text2" value="FIRST M">
+                        <input class="tagText" type="text" size="14" maxlength="14" name="tag2Text3" id="tag2Text3" value="SSN456789">
+                        <input class="tagText" type="text" size="14" maxlength="14" name="tag2Text4" id="tag2Text4" value="BLOOD TYPE">
+                        <input class="tagText" type="text" size="14" maxlength="13" name="tag2Text5" id="tag2Text5" value="RELIGION">
+                            
+                        <div class="buttons">
+                            <img src="images/btnAlignleft.gif" title="Left Align" alt="Left Align" onclick="tagAction(2,'left')">
+                            <img src="images/btnAligncenter.gif" title="Center Align" alt="Center Align" onclick="tagAction(2,'center')">
+                            <img src="images/btnClear.gif" title="Clear" alt="Clear" onclick="tagAction(2,'clear')">
+                            <img src="images/btnLeft.gif" title="Copy to Other Tag" alt="Copy to Other Tag" onclick="tagAction(2,'copy')">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+            
+            <div class="foot">
+                Additional comments:
+                <!--<br><textarea cols="50" rows="8" name="comments">Hey, thanks for processing my tag order. Please make sure the AF letters are aligned as far right as possible as per AF regulations IAW ORE &amp; Deployments.</textarea>-->
+                <br><textarea cols="50" rows="8" name="comments"></textarea>
+                    
+                <!--<br><img id="captcha" src="http://formtoemailremote.com/securimage/securimage_show.php" alt="CAPTCHA Image">
+                <br><a href="#" onclick="document.getElementById('captcha').src = 'http://formtoemailremote.com/securimage/securimage_show.php?' + Math.random(); return false">Reload Image</a>
+                <br><input type="text" name="captcha_code" size="10" maxlength="6">-->
+                <input type="hidden" name="validate" value="1">
+                <input type="hidden" name="chainType2" value="none">
+                <br>Please ensure your email address is correct for your order to be processed.
+                <br><input type="button" value="Submit" onclick="submitTag()">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

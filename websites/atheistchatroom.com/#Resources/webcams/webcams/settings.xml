@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings> 
+	<!-- Enter your client area username here -->
+	<licence>clientAreaUsername</licence>
+	
+	<!-- Enter your RTMP Server Details here -->
+	<rtmpType>rtmp</rtmpType>
+	<serverURL>www.yoursite.com</serverURL>
+	<applicationID>applicationFolderName</applicationID>
+	
+	<camera>
+        <width>640</width>
+        <height>480</height>
+        <fps>15</fps>
+        <fav_area>false</fav_area>
+    </camera>
+    
+    <bandWidth>0</bandWidth>
+    <quality>80</quality>
+</settings>

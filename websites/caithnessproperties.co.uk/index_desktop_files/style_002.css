@@ -1,0 +1,58 @@
+﻿body
+{
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#eaSearchPod
+{
+    height: 50px;
+    vertical-align: middle;
+}
+#eaSearchPod > div
+{
+    height: 50px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#eaSearchPod div *
+{
+    vertical-align: middle;
+}
+
+#eaSearchPod #sl_price
+{
+    margin-top: 0px;
+}
+
+.eaSearchPodLblNewLine
+{
+    clear: both !important;
+}
+
+/*input, textarea, select {
+   border: 1px solid #555 !important;
+   font-size: 14px !important;
+   width: 80% !important;
+   background: #fff !important;
+ }*/
+ 
+.formlist {
+	width: 97%;
+	font-size: 11px;
+	padding: 2px;
+	margin-top: 10px;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+   -webkit-appearance: none;
+   -webkit-box-shadow: 1px 1px 1px #fff;
+   -webkit-border-radius: 0.5em;
+}
+.searchlist{
+	float: left;
+}
+.searchinput{
+	float: left;
+}
+
+ 

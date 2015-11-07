@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings> 
+	<!-- Enter your Licence here -->
+	<licence>WebcamHosting130417</licence>
+	
+	<!-- Enter your RTMP Server Details here -->
+	<rtmpType>rtmp</rtmpType>
+	<serverURL>www.chatsoftpro-serverone.co.uk</serverURL>
+	<applicationID>e56b4f29b3777962d66046b2150664f0</applicationID>
+	
+	<camera>
+        <width>640</width>
+        <height>480</height>
+        <fps>15</fps>
+        <fav_area>false</fav_area>
+    </camera>
+    
+    <bandWidth>0</bandWidth>
+    <quality>80</quality>
+</settings>

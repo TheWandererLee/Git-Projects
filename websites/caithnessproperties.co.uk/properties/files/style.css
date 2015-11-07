@@ -1,0 +1,382 @@
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+label {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+fieldset {
+	border: 0px currentColor;
+}
+img {
+	border: 0px currentColor;
+}
+address {
+	font-style: normal; font-weight: normal;
+}
+caption {
+	font-style: normal; font-weight: normal;
+}
+cite {
+	font-style: normal; font-weight: normal;
+}
+code {
+	font-style: normal; font-weight: normal;
+}
+dfn {
+	font-style: normal; font-weight: normal;
+}
+em {
+	font-style: normal; font-weight: normal;
+}
+strong {
+	font-style: normal; font-weight: normal;
+}
+th {
+	font-style: normal; font-weight: normal;
+}
+var {
+	font-style: normal; font-weight: normal;
+}
+caption {
+	text-align: left;
+}
+th {
+	text-align: left;
+}
+h1 {
+	clear: both; font-weight: normal;
+}
+h2 {
+	clear: both; font-weight: normal;
+}
+h3 {
+	clear: both; font-weight: normal;
+}
+h4 {
+	clear: both; font-weight: normal;
+}
+h5 {
+	clear: both; font-weight: normal;
+}
+h6 {
+	clear: both; font-weight: normal;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+a img {
+	border: currentColor;
+}
+.clear {
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+#subrightpages .PageItemHolder {
+	padding: 10px 0px; border-bottom-color: rgb(224, 224, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#subrightpages .PageItemHolder .staffphoto {
+	width: 120px; height: 179px; float: left;
+}
+#subrightpages .PageItemHolder p {
+	padding-left: 140px;
+}
+#subrightpages .PageItemHolder p a:link {
+	text-decoration: underline;
+}
+#subrightpages .PageItemHolder p a:visited {
+	text-decoration: underline;
+}
+#subrightpages .PageItemHolder h3 {
+	margin: 0px; padding: 0px 10px 10px 140px; clear: right;
+}
+#subrightpages .PageItemHolder a.button {
+	margin-top: 20px; margin-left: 140px;
+}
+body {
+	background: rgb(255, 255, 255); line-height: 24px;
+}
+html {
+	min-height: 101%;
+}
+.button {
+	width: 140px;
+}
+.bulletlist {
+	margin: 15px 0px 0px 15px; display: block; list-style-image: url("bullet.gif");
+}
+#container {
+	margin: 0px auto; width: 1000px; background-color: rgb(255, 255, 255);
+}
+#header {
+	width: 1000px; height: 87px; margin-right: auto; margin-left: auto; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; border-bottom-style: solid; background-image: url("images/header.gif"); background-repeat: no-repeat;
+}
+#mainmenu {
+	width: 1000px; height: 40px; padding-right: 0px; padding-left: 0px; margin-right: auto; margin-bottom: 12px; margin-left: auto;
+}
+ul#mainmenu1 {
+	background: #003C77; width: 1000px; height: 40px; padding: 0; margin-right: 0px; margin-left: 0px; float: left; display: block; list-style-type: none;
+	border-bottom-color: rgb(80, 169, 27); border-bottom-width: 5px; border-bottom-style: solid;
+}
+#mainmenu1 li {
+	text-shadow: 1px 1px 1px #000; text-transform: uppercase; margin: 0px; padding: 0px; width: auto; float: left; display: block; font-family: "Calibri", Arial, Helvetica, sans-serif;
+}
+#mainmenu1 a {
+	line-height: 40px; color: #FFF; background-position: right; margin: 0px; padding: 0px 15px; width: auto; text-align: center; font-size: 14px; font-weight: normal; text-decoration: none; display: block; /*background-image: url("images/divide.gif"); background-repeat: no-repeat;*/
+}
+#mainmenu1 li a.lastmenuitem {
+	list-style-image: none; background-image: none;
+}
+#mainmenu1 li a.lastmenuitem:hover {
+	list-style-image: none; background-image: none;
+}
+#mainmenu1 li a.lastmenuitem:active {
+	list-style-image: none; background-image: none;
+}
+#mainmenu1 a:hover {
+	color: #82CA00;
+}
+#mainmenu1 a:active {
+	
+}
+#mainmenu1 a.active:link {
+	
+}
+.active#mainmenu1A:visited {
+	
+}
+#mainmenu1 li a#current {
+	
+}
+#bannerImage {
+	width: 997px; height: 287px; padding-bottom: 15px; margin-right: auto; margin-left: auto; background-image: url("images/banner.jpg"); background-repeat: no-repeat;
+}
+#ctaContainer {
+	width: 940px; color: rgb(35, 64, 142); padding-top: 10px; clear: both; margin-right: auto; margin-left: auto; border-top-color: rgb(201, 201, 201); border-top-width: 1px; border-top-style: solid;
+}
+.cta {
+	width: 220px; line-height: 18px; text-decoration: none; margin-right: 20px; float: left;
+}
+.ctaRight {
+	width: 220px; line-height: 18px; text-decoration: none; float: left;
+}
+.cta_sub {
+	width: 200px; line-height: 18px; text-decoration: none; float: left;
+}
+#contentContainer {
+	width: 940px; padding-top: 10px; clear: both; margin-top: 10px; margin-right: auto; margin-left: auto; border-top-color: rgb(201, 201, 201); border-top-width: 1px; border-top-style: solid;
+}
+.pow {
+	margin: 0px 20px 25px 0px; width: 300px; float: left;
+}
+.services {
+	margin: 0px 20px 25px 0px; width: 140px; float: left;
+}
+.news {
+	margin: 0px 20px 25px 0px; width: 300px; float: left;
+}
+.offices {
+	margin: 0px 0px 25px; width: 140px; float: left;
+}
+#logos {
+	padding: 0px 0px 10px; width: 940px; clear: both; margin-right: auto; margin-left: auto; border-top-color: rgb(201, 201, 201); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#footer {
+	margin: 0px auto; padding: 18px 0px 10px; width: 100%; height: 92px; text-align: center; color: rgb(70, 70, 70);
+}
+#footer a {
+	color: rgb(70, 70, 70);
+}
+#hpsearch2 {
+	margin: 0px 0px 0px 40px; padding: 150px 0px 8px 10px; width: 420px;
+}
+#hpsearch2 span {
+	color: rgb(255, 255, 255); font-size: 18px; font-weight: normal; margin-bottom: 10px;
+}
+#hpsearch {
+	padding: 10px 10px 8px; background-color: rgb(235, 235, 235);
+}
+#subleft {
+	margin: 10px 0px 0px 20px; padding: 10px; width: 200px; border-top-color: rgb(201, 201, 201); border-top-width: 1px; border-top-style: solid; float: left; background-color: rgb(205, 217, 230);
+}
+#subright {
+	padding: 0px 0px 10px; width: 730px; margin-right: 0px; float: right;
+}
+#subrightpages {
+	padding: 2px 0px 10px 10px; width: 730px; margin-top: 10px; border-top-color: rgb(201, 201, 201); border-top-width: 1px; border-top-style: solid; float: right;
+}
+#subrightpages h1 {
+	border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(201, 201, 201); font-size: 18px; font-weight: bold; margin-top: 3px;
+}
+#subrightpages p {
+	line-height: 20px;
+}
+#subright h1 {
+	margin: 10px 0px 0px;
+}
+#subright img {
+	padding: 0px 0px 10px;
+}
+.salesbanner {
+	margin: 0px 0px 0px 10px; padding: 10px; border: 1px solid rgb(205, 217, 230);
+}
+#innerleft {
+	width: 470px; margin-top: 20px; margin-right: 20px; float: left;
+}
+#innerright {
+	width: 240px; margin-top: 20px; float: left;
+}
+body {
+	color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+h1 {
+	margin: 0px; color: rgb(35, 64, 142); padding-bottom: 8px; font-size: 18px; font-weight: normal; border-bottom-color: rgb(219, 32, 51); border-bottom-width: 10px; border-bottom-style: solid;
+}
+h2 {
+	color: rgb(35, 64, 142); padding-bottom: 8px; font-size: 18px; font-weight: normal; border-bottom-color: rgb(78, 169, 19); border-bottom-width: 10px; border-bottom-style: solid;
+}
+h3 {
+	color: rgb(35, 64, 142); padding-bottom: 8px; font-size: 16px; font-weight: bold;
+}
+p {
+	margin: 0px 0px 10px;
+}
+h2 {
+	margin: 0px 0px 10px;
+}
+h3 {
+	margin: 0px 0px 10px;
+}
+h4 {
+	margin: 0px 0px 10px;
+}
+h5 {
+	margin: 0px 0px 10px;
+}
+h6 {
+	margin: 0px 0px 10px;
+}
+ul {
+	margin: 0px 0px 10px;
+}
+ol {
+	margin: 0px 0px 10px;
+}
+form {
+	margin: 0px 0px 10px;
+}
+blockquote {
+	text-align: center; font-size: 18px; display: block;
+}
+blockquote.niche {
+	padding: 10px; background-color: rgb(216, 201, 154);
+}
+p {
+	line-height: 18px;
+}
+hr {
+	border: 1px solid rgb(0, 0, 0);
+}
+a {
+	color: rgb(35, 64, 142); text-decoration: none;
+}
+.bottomlogos {
+	margin: 15px 0px 0px;
+}
+ul.sidemenu li {
+	margin: 0px 5px 5px 0px; padding: 10px; border: 1px dotted rgb(140, 140, 140); background-color: rgb(209, 209, 209);
+}
+ul.sidemenu li a {
+	color: rgb(9, 79, 159); font-weight: bold; text-decoration: none;
+}
+ul.sidemenu li a:hover {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.form {
+	width: 200px;
+}
+#container #socialmedia span {
+	display: none; visibility: hidden;
+}
+#container #socialmedia {
+	margin: -50px auto 0px; padding: 0px; left: 0px; top: 0px; width: 940px; height: 32px; overflow: visible; clear: both; vertical-align: bottom; display: block; list-style-type: none; list-style-image: none; position: relative; z-index: 9999;
+}
+#container #socialmedia ul li a.twitter {
+	margin: 0px; padding: 0px; width: 32px; height: 32px; clear: none; float: right; display: inline; background-image: url("images/socialmedia/twitter_32.png"); background-repeat: no-repeat;
+}
+#container #socialmedia ul li a.facebook {
+	margin: 0px; padding: 0px; width: 32px; height: 32px; clear: none; float: right; background-image: url("images/socialmedia/facebook_32.png"); background-repeat: no-repeat;
+}
+#container #socialmedia ul li a.bestbuys {
+	margin: 0px; padding: 0px; width: 145px; height: 32px; clear: none; float: right; background-image: url("images/bestbuys.png"); background-repeat: no-repeat;
+}
+#container #socialmedia ul li a.auctions {
+	margin: 0px; padding: 0px; width: 230px; height: 32px; clear: none; float: right; background-image: url("images/auctions.png"); background-repeat: no-repeat;
+}
+#container #socialmedia ul li.bestbuys {
+	margin: 0px 0px 0px 10px; padding: 0px; width: 145px; height: 32px; clear: none; vertical-align: bottom; float: right; display: inline;
+}
+#container #socialmedia ul li.auctions {
+	margin: 0px 0px 0px 10px; padding: 0px; width: 230px; height: 32px; clear: none; vertical-align: bottom; float: right; display: inline;
+}
+#container #socialmedia ul {
+	clear: none; list-style-type: none; list-style-image: none;
+}
+#container #socialmedia ul li {
+	margin: 0px 0px 0px 10px; padding: 0px; width: 32px; height: 32px; clear: none; vertical-align: bottom; float: right; display: inline;
+}
