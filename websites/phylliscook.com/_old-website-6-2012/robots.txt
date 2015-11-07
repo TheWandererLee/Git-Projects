@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /_db_backups/
+Disallow: /_notes/
+Disallow: /awstats/
+Disallow: /cgi-bin/
+Sitemap: http://www.phylliscook.com/sitemap.xml

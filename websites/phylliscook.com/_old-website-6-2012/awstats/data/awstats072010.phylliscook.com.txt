@@ -1,0 +1,685 @@
+AWSTATS DATA FILE 6.6 (build 1.887)
+# If you remove this file, all statistics for date 201007 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2520                
+POS_VISITOR 10563               
+POS_DAY 17460               
+POS_DOMAIN 3350                
+POS_LOGIN 3582                
+POS_ROBOT 3737                
+POS_WORMS 4705                
+POS_EMAILSENDER 4836                
+POS_EMAILRECEIVER 4979                
+POS_SESSION 18023               
+POS_SIDER 18232               
+POS_FILETYPES 5114                
+POS_OS 5318                
+POS_BROWSER 5468                
+POS_SCREENSIZE 5861                
+POS_UNKNOWNREFERER 5935                
+POS_UNKNOWNREFERERBROWSER 6468                
+POS_ORIGIN 6706                
+POS_SEREFERRALS 6849                
+POS_PAGEREFS 7035                
+POS_SEARCHWORDS 7821                
+POS_KEYWORDS 8966                
+POS_MISC 2183                
+POS_ERRORS 9478                
+POS_CLUSTER 3438                
+POS_SIDER_404 9582                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100720230656 702 -1 0
+FirstTime 0
+LastTime 20100720221053
+LastUpdate 20100721020319 702 0 360 342 0
+TotalVisits 187                 
+TotalUnique 131                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 196                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 48 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 25 100 2002445 89 100 985016
+1 5 7 89270 67 69 425501
+2 6 6 51360 22 26 109011
+3 5 31 983337 54 55 350933
+4 2 2 20544 27 32 204273
+5 47 78 2182272 52 60 223265
+6 6 31 728097 48 52 341634
+7 20 44 671984 53 57 325945
+8 57 172 4247011 48 53 568837
+9 55 228 5088173 38 50 791120
+10 16 116 2166249 41 45 370044
+11 48 211 5357981 32 36 361049
+12 32 100 2803596 63 64 573550
+13 54 317 5463536 59 65 556921
+14 54 167 4458118 60 64 252924
+15 98 351 5446197 45 50 300766
+16 62 309 6931600 50 52 354815
+17 47 49 387026 51 53 398532
+18 10 56 1129411 37 42 356484
+19 19 93 2104763 31 36 133541
+20 25 42 557924 34 41 221037
+21 36 109 3105221 28 29 116122
+22 25 126 2841117 34 36 73632
+23 26 72 1696516 31 49 475297
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 780 2817 60513748
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 24
+yandex 215 1861037 20100720092511 0
+slurp 116 766612 20100720191333 0
+googlebot 93 936816 20100720230656 0
+nutch 84 681988 20100719224353 0
+msnbot 46 75760 20100720212615 0
+\wbot[\/\-] 45 353883 20100712075459 0
+msnbot\-media 40 1384113 20100720164231 0
+baiduspider 37 308276 20100720121815 0
+crawl 33 252370 20100718002118 0
+turnitinbot 22 274235 20100714124653 0
+spider 8 82176 20100719125428 0
+cfnetwork 1 4471 20100706235543 0
+exabot 4 30816 20100719194150 0
+surveybot 2 20544 20100717145946 0
+ia_archiver 2 18736 20100720124250 0
+legs 4 41088 20100720075304 0
+larbin 1 10272 20100709075637 0
+webcollage 2 23265 20100717021706 0
+xenu\slink\ssleuth 1 0 20100714084334 0
+speedy 6 65171 20100715223101 0
+jeeves 2 20544 20100705150438 0
+robot 8 54319 20100719230608 0
+mj12bot 2 20544 20100713233715 0
+netcraft 1 10272 20100710091550 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+gif 198 179217 0 0
+pdf 6 337431 0 0
+htm 387 3359723 0 0
+swf 119 10079182 0 0
+css 167 531410 0 0
+js 87 618233 0 0
+html 387 2978035 0 0
+jpg 1466 42430517 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxfedora 10
+winnt 305
+winxp 1287
+winlong 598
+win2000 9
+Unknown 200
+win98 201
+win2003 94
+linux 5
+macosx 108
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+firefox3.0.19 48
+firefox1.5.0.1 1
+firefox2.0.0.20 8
+curl 7
+firefox2.0.0.14 1
+msie5.0 16
+firefox3.0.5 2
+firefox3.0.6 8
+msie6.0 429
+opera 1
+mozilla 116
+firefox3.5.10 24
+msie5.5 1
+msie7.0 612
+safari 342
+msie8.0 492
+Unknown 72
+firefox3.5.2 107
+netscape4.05 3
+firefox3.5.3 10
+firefox3.5.5 2
+libwww 1
+firefox3.6.3 12
+netscape4.0 1
+firefox3.6.6 501
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+WWW-Mechanize/1.60 20100703171145
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20100720202506
+Mozilla/5.0_(compatible;_Dow_Jones_Searchbot) 20100711154729
+PycURL/7.19.5 20100713090333
+panscient.com 20100711054145
+libwww-perl/5.828 20100702012337
+Mozilla/4.0 20100705104941
+HTTP_Compression_Test_(_www.whatsmyip.org/http_compression_) 20100718233604
+PycURL/7.21.0 20100716062119
+Mozilla/4.05_[en] 20100718234107
+- 20100718075532
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WWW-Mechanize/1.60 20100703171145
+HTTP_Compression_Test_(_www.whatsmyip.org/http_compression_) 20100718233604
+- 20100718075532
+panscient.com 20100711054145
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 247 336
+From1 0 0
+From2 55 60
+From3 15 31
+From4 463 2390
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+yandex 1 1
+aol 3 3
+google 43 47
+yahoo 8 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://www.facebook.com/l.php 3 3
+http://www.perio.org/referral-bin/2008/map_display 2 2
+http://www.bing.com/search 2 2
+http://www.hotfrog.com/Companies/Cook-Phyllis-Dds 1 1
+http://www.blueprinttowin.com 1 1
+http://www.dentalimplantsonline.com/zip-code-search.aspx 1 1
+http://192.168.1.6/crm/eware.dll/Do 1 1
+http://www.superpages.com/bp/Wilmington-NC/Phyllis-B-Cook-DDS-L0086680709.htm 1 1
+http://www.dentalimplantsonline.com/north-carolina/wilmington-region.aspx 1 1
+http://yellowpages.aol.com/all-dentists/nc/wilmington/ 1 1
+http://www.bing.com/local/Details.aspx 1 1
+http://perio1.pbhs.com/_client_setup/PatientTestimonials.asp 0 16
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 39
+phyllis+cook 5
+dr.+phyllis+cook+wilmington+nc 3
+phyllis+cook+wilmington+nc 3
+dental+implants+wilmington+nc 3
+phyllis+cook+dentist 2
+phyliss+cook 2
+phyllis+cook+dds 2
+wilmington+nc+dental+implant 2
+phillis+cook+wilmington+nc 2
+periodontists+and+wilmington+nc 1
+phyllis+cook+periodontist 1
+wilmington+nc+dentists 1
+phylliscook.com 1
+phylis+cook+dds 1
+%e5%e4%e8%ed%fb%e9+%ed%e0%eb%ee%e3+%ed%e0+%e2%ec%e5%ed%e5%ed%ed%fb%e9+%e4%ee%f5%ee%e4 1
+dr+phyllis+cook+dds 1
+dentists+%40+7028+wrightsville+ave 1
+brenda+faye+moore+wilmington 1
+gummy+smile+pamphlet 1
+7028+wrightsville+avenue+wilmington+nc+28403 1
+wilmington+nc+periodontist 1
+dr.+phyllis+cook 1
+dentist 1
+phyllis+b.+cook 1
+periodontist+phyllis+byer+cook+wrightsville 1
+m.p.h.+pa 1
+dr+phyllis+cook+wilmington+nc 1
+periodontist+wilmington+nc 1
+what+is+a+dds+mph 1
+phyllis+b+cook+wilmington 1
+mph+dds 1
+phylis+cook 1
+wrightsville+ave+nc 1
+mph%2fpa 1
+wilmington+nc 1
+phyllis+b+cook 1
+dr.+phillis+cook 1
+dr+phyllis+cook 1
+wilmington+nc+implants 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 46
+cook 31
+phyllis 24
+wilmington 23
+nc 22
+dds 6
+dr. 5
+dental 5
+implants 4
+periodontist 4
+wrightsville 4
+dr 3
+pamphlet 1
+gummy 1
+%e4%ee%f5%ee%e4 1
+%e5%e4%e8%ed%fb%e9 1
+pa 1
+phylis 2
+phylliscook.com 1
+and 1
+7028 2
+28403 1
+%ed%e0%eb%ee%e3 1
+avenue 1
+smile 1
+dentist 3
+ave 2
+faye 1
+brenda 1
+a 1
+%e2%ec%e5%ed%e5%ed%ed%fb%e9 1
+moore 1
+b 2
+m.p.h. 1
+is 1
+%40 1
+dentists 2
+mph%2fpa 1
+b. 1
+what 1
+implant 2
+periodontists 1
+mph 2
+phyliss 2
+byer 1
+%ed%e0 1
+phillis 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 34 1551432
+404 407 21509
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 22
+//phpmyadmin/main.php 1 -
+/gallery10.htm 1 -
+/Scripts/application/x-shockwave-flash.swf 2 -
+/application/x-shockwave-flash.swf 1 -
+//admin/main.php 1 -
+//dbadmin/main.php 1 -
+//php-my-admin/main.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php 1 www.phylliscook.com/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php
+/gallery02.htm 4 -
+/gallery11.htm 2 -
+/gallery09.htm 1 -
+/robots.txt 321 -
+/index.htm 54 -
+/gallery12.htm 4 -
+//myadmin/main.php 1 -
+//pma/main.php 1 -
+/gallery04.htm 1 -
+/gallery05.htm 1 -
+//PHPMYADMIN/main.php 1 -
+/popDisplay_1.htm 5 -
+/gallery06.htm 1 -
+/no-text1345234245853656859 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 196
+68.209.179.76 85 267 7328869 20100720124821
+98.74.146.162 65 284 6219585 20100720150026
+205.251.121.5 43 48 631590 20100711054145
+38.105.83.12 43 44 335954 20100715174253
+67.209.4.104 40 147 4115743 20100719011529
+205.203.134.197 39 104 318561 20100711154728
+24.106.219.166 29 90 2153805 20100712153234
+67.238.209.226 28 200 2142284 20100715165220
+141.129.1.98 26 90 2294376 20100708160928
+24.241.33.151 25 82 1664410 20100716182821
+64.12.117.10 0 1 4948 
+64.12.117.11 0 1 84097 
+208.80.193.37 2 2 20544 20100709075959
+64.12.117.12 0 2 92788 
+38.99.96.145 12 12 97087 20100720202506
+208.80.193.38 1 1 10272 20100706014746
+64.12.117.13 0 1 76030 
+208.80.193.39 9 9 92448 20100719095704
+64.12.117.14 0 2 93725 
+69.246.74.224 1 8 260528 20100701131008
+64.12.117.17 0 2 15647 
+64.12.116.70 0 1 124712 
+95.25.113.26 0 1 4831 
+64.12.116.71 0 1 88393 
+72.37.171.76 12 12 98862 20100718075532
+208.79.211.112 2 2 20544 20100718233604
+64.12.116.74 0 1 81836 
+24.137.91.88 1 1 10272 20100718224837
+64.12.116.75 0 1 11045 
+205.188.116.195 0 1 10617 
+72.11.87.61 1 1 10272 20100702210655
+64.12.116.76 2 3 88227 20100712134112
+205.188.117.11 0 1 84097 
+64.12.116.77 0 1 86522 
+174.106.20.23 7 29 599669 20100720132735
+205.188.117.12 0 2 92788 
+205.188.116.197 0 1 10460 
+205.188.117.13 0 1 76030 
+207.46.12.70 1 2 11558 20100703110747
+68.221.253.162 3 22 443527 20100713001421
+205.188.116.199 0 1 12109 
+64.12.117.5 0 1 25337 
+205.188.117.14 0 1 78783 
+98.65.242.129 1 17 279057 20100709091333
+64.12.117.7 0 1 77301 
+194.67.7.142 1 1 10272 20100713180205
+64.12.117.8 0 1 95199 
+205.188.117.17 0 1 11176 
+64.12.117.9 0 1 94772 
+207.46.12.76 1 2 11683 20100702000421
+208.80.193.121 8 8 82176 20100720084722
+122.172.18.52 3 13 293749 20100714144341
+98.74.128.107 2 19 368697 20100719205426
+24.25.60.161 1 8 260528 20100710141800
+91.206.113.181 1 1 10272 20100702000934
+98.74.149.179 5 18 517265 20100706123940
+208.80.193.40 2 2 20544 20100714203227
+205.188.116.77 0 1 86522 
+98.67.95.239 3 12 438768 20100712064240
+95.25.0.53 0 1 8029 
+202.59.80.154 0 16 1323115 
+64.246.215.5 4 38 584100 20100713105409
+174.106.17.160 17 56 1089207 20100717001121
+38.111.147.86 1 1 7052 20100703195216
+98.27.7.75 2 21 435063 20100718224622
+64.12.116.80 1 1 10272 20100712133211
+208.87.234.180 9 40 844118 20100720082136
+64.12.116.195 0 1 10617 
+64.12.116.196 1 1 7190 20100712134318
+64.12.116.197 0 1 10460 
+64.12.116.198 0 1 11518 
+205.188.116.80 1 1 0 20100717223014
+64.233.172.17 2 3 35681 20100713171123
+118.136.4.231 0 1 10460 
+64.12.116.199 0 1 12109 
+205.188.116.200 0 1 10413 
+64.244.59.71 1 1 10272 20100703171145
+205.188.116.131 0 1 1753 
+205.188.116.205 0 1 4831 
+64.12.116.13 0 1 55192 
+205.188.116.206 0 1 2110 
+207.46.193.43 1 2 11171 20100719073918
+64.12.116.15 0 1 11366 
+65.184.182.8 5 28 563074 20100704165020
+74.125.75.1 0 1 4831 
+78.140.138.39 1 1 10272 20100705123608
+209.188.34.29 3 25 500515 20100711092101
+70.63.86.17 3 22 443527 20100709110645
+64.27.10.36 1 1 10272 20100714153717
+207.46.12.110 1 2 11520 20100706220144
+63.124.22.144 6 6 0 20100713090333
+64.27.10.38 1 1 10272 20100714153142
+71.77.218.145 2 21 435063 20100712114647
+206.74.61.129 1 8 260528 20100714111603
+207.46.12.114 1 2 12021 20100718031852
+205.188.116.15 0 1 11366 
+205.188.116.5 0 2 23622 
+117.199.229.183 1 8 183799 20100711054753
+207.126.224.241 3 3 30816 20100718234107
+98.67.84.190 1 8 260528 20100712131904
+72.94.249.38 1 1 10272 20100708101553
+65.184.196.181 1 8 260528 20100715093150
+220.255.0.60 0 3 10460 
+166.214.120.80 20 68 2097651 20100709094140
+205.188.116.140 0 1 10771 
+213.192.65.34 1 1 10272 20100715184029
+64.12.116.200 0 1 10413 
+74.202.155.235 2 21 435063 20100709094535
+208.115.138.254 1 1 10272 20100705104941
+64.12.116.204 1 1 6764 20100712134100
+64.12.116.131 0 3 4137 
+64.12.116.205 0 2 4831 
+64.12.116.206 0 2 2110 
+64.12.116.135 0 2 16475 
+207.46.12.24 1 4 147844 20100703081301
+217.16.177.126 5 5 51368 20100709154907
+208.85.8.6 1 1 0 20100716062119
+216.104.15.142 0 1 8029 
+71.76.254.83 1 17 279057 20100717221315
+70.36.153.2 1 8 0 20100706144151
+76.8.110.170 2 18 287521 20100707105231
+72.243.15.114 6 28 632467 20100706152352
+64.12.116.140 1 2 19739 20100712134121
+95.25.0.191 0 1 124712 
+64.12.116.144 0 1 8029 
+64.12.116.145 0 1 12104 
+94.30.133.2 1 1 10272 20100701025341
+98.202.4.150 1 8 260528 20100712151515
+24.38.9.130 1 8 260528 20100708162732
+91.206.113.212 1 1 10272 20100719011132
+69.58.178.33 10 10 80093 20100705203205
+65.184.33.70 2 16 521056 20100712110214
+67.79.5.186 0 1 36656 
+93.80.127.65 0 1 4831 
+98.74.144.169 15 70 1652376 20100714195007
+75.1.58.161 18 56 1302479 20100717215334
+32.179.79.97 16 39 914672 20100712114932
+74.220.207.110 0 2 9896 
+207.46.12.210 1 2 13295 20100717215833
+93.80.213.117 1 1 10272 20100714091004
+166.137.141.83 1 17 255032 20100703222803
+38.110.10.249 3 15 228155 20100715154508
+64.12.116.5 0 1 32744 
+165.112.151.69 1 8 260528 20100701155440
+207.46.12.212 1 2 11228 20100707083426
+207.46.12.213 1 2 11932 20100701031431
+64.12.117.66 1 1 18320 20100712133906
+64.12.117.67 0 2 38194 
+64.12.116.8 0 1 271 
+65.184.162.190 2 21 435063 20100713183646
+166.137.9.70 2 20 310351 20100701090146
+66.56.232.176 3 38 714120 20100720182401
+205.188.117.7 0 1 77301 
+207.46.199.33 1 2 11883 20100706222150
+205.188.117.8 0 2 191027 
+128.122.54.37 1 8 260528 20100720141020
+205.188.117.9 0 1 94772 
+205.188.117.66 2 2 18320 20100719030039
+205.188.117.67 0 1 11045 
+204.152.2.83 4 32 1210180 20100717162757
+24.172.30.177 2 10 341576 20100708161121
+65.52.104.38 1 2 23151 20100718122356
+96.10.49.115 1 1 10272 20100705104941
+24.241.33.60 1 8 260528 20100702153842
+64.12.117.78 0 2 95828 
+72.148.61.252 15 68 1953562 20100718213305
+64.12.117.79 1 1 7552 20100712134343
+216.215.222.18 8 50 821151 20100720103514
+216.52.219.150 1 1 10272 20100702012337
+205.188.117.70 0 1 32744 
+205.188.117.72 1 1 6727 20100719030349
+208.80.193.27 4 4 41088 20100720191029
+208.80.193.29 2 2 20544 20100713223719
+24.106.218.67 2 21 435063 20100708103517
+69.164.193.141 4 4 41088 20100715171949
+65.52.104.41 1 2 11228 20100718120214
+65.52.104.42 3 10 206180 20100719124012
+71.74.12.153 1 1 10272 20100720091052
+64.12.116.65 0 1 82088 
+64.12.116.66 2 2 13067 20100712134220
+64.12.117.80 1 1 289 20100712134318
+64.12.116.68 1 1 6397 20100712134251
+85.75.195.140 2 21 435063 20100702110914
+192.114.2.38 1 17 279057 20100701065923
+207.46.12.63 1 2 13328 20100707052057
+24.125.50.135 1 6 114989 20100708161146
+66.65.149.244 2 21 435063 20100717110839
+173.163.138.146 1 8 260528 20100713105851
+207.46.12.160 2 4 24542 20100714151938
+207.46.12.66 1 2 11526 20100702015448
+199.255.196.2 1 1 10272 20100712025917
+207.46.12.69 1 4 147844 20100705211316
+208.80.193.30 1 1 10272 20100703123030
+74.170.2.103 1 8 260528 20100714185559
+173.6.169.11 1 8 260528 20100720221053 20100720221053 /
+208.80.193.34 2 2 20544 20100718225008
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20100701 8 57 1142940 7
+20100702 10 40 780056 9
+20100703 7 29 462762 7
+20100704 9 33 605541 5
+20100705 16 23 344426 7
+20100706 16 60 1193679 7
+20100707 8 40 843405 6
+20100708 38 149 3748148 11
+20100709 35 137 3337482 9
+20100710 4 14 418644 4
+20100711 87 186 1644737 5
+20100712 86 317 8172897 22
+20100713 16 96 1774290 9
+20100714 65 357 6613321 12
+20100715 61 136 2778504 11
+20100716 28 85 1684954 6
+20100717 46 187 4339553 9
+20100718 78 307 6506033 17
+20100719 70 270 7477654 11
+20100720 92 294 6644722 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 5
+0s-30s 143
+1h+ 1
+5mn-15mn 10
+30s-2mn 12
+2mn-5mn 9
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 166 1561344 134 98
+/about.htm 55 970960 14 23
+/periodontal_procedures.htm 32 196540 3 3
+/tours.htm 30 147131 3 5
+/first.htm 30 211456 3 1
+/gallery/ 29 8381 1 2
+/gallery/1.html 26 186940 2 5
+/testimonials.htm 25 168175 2 3
+/oralhealth.htm 24 155572 2 2
+/icat_machine.htm 22 197296 2 4
+/gallery/6.html 14 101934 0 0
+/gallery/10.html 13 96954 0 1
+/implants_perio.htm 21 129580 3 4
+/pdf/Dr_Cook.pdf 3 263640 0 0
+/gallery/8.html 13 93951 0 0
+/gallery/12.html 10 73610 1 0
+/gallery/3.html 15 110250 0 0
+/life_health.htm 5 34135 0 0
+/mouth_care_health.htm 6 44556 0 0
+/sitemap.htm 16 135952 2 5
+/gallery/14.html 9 66105 0 6
+/gallery/5.html 14 104076 0 0
+/non_surgical_perio.htm 12 85212 1 1
+/pdf/patient_information.pdf 3 73791 0 0
+/tobacco_health.htm 4 28072 0 0
+/gallery/7.html 13 95732 0 0
+/gallery/11.html 11 80212 1 1
+/surgery_perio.htm 13 87035 1 2
+/gallery/2.html 17 123471 0 0
+/cosmetic_perio.htm 10 65040 0 0
+/gallery.htm 1 8571 0 0
+/contact.htm 20 160816 3 6
+/smile_health.htm 6 40134 2 2
+/brush_and_floss_health.htm 5 36390 0 1
+/gallery/9.html 13 97877 0 0
+/gallery/13.html 10 74480 0 1
+/gallery/4.html 14 102718 0 0
+/options_visit.htm 14 95928 1 3
+/heart_disease_health.htm 5 33495 0 1
+/faq.htm 13 200525 3 3
+/periodontal_health.htm 8 56416 2 2
+/insurance_visit.htm 6 38496 0 0
+/need_to_know_visit.htm 4 32240 1 1
+END_SIDER

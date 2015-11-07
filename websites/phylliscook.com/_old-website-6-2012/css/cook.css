@@ -1,0 +1,258 @@
+/* CSS Document */
+/*== Cook ==*/
+
+BODY
+{
+}
+
+
+#outline
+{
+	border-right : 1px solid #000000;
+	border-bottom : 1px solid #000000;
+}
+#outlineB
+{
+	
+	border-bottom : 1px solid #000000;
+}
+#content
+{	
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 10px;
+    FONT-FAMILY: Arial, Verdana
+
+}
+#content A:link { text-decoration:underline; color : #660000}
+
+#content A:visited { text-decoration:underline; color : #660000 }
+
+#content A:hover { text-decoration:none; color : #000000  }
+
+#contentB
+{	
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM:3px;
+    PADDING-TOP: 1px;
+    FONT-FAMILY: Arial, Verdana
+
+}
+#contentB A:link { text-decoration:none; color : #660000 }
+
+#contentB A:visited { text-decoration:none; color : #660000 }
+
+#contentB A:hover { text-decoration:none; color : #000000  }
+
+
+#contentC
+{	
+	font-weight : bold;
+	border-bottom : 1px solid #000000;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    color : #660000;
+	FONT-SIZE: 14px;
+    PADDING-BOTTOM:3px;
+    PADDING-TOP: 3px;
+    FONT-FAMILY: Arial, Verdana
+
+}
+#contentC A:link { text-decoration:none; color : #660000 }
+
+#contentC A:visited { text-decoration:none; color : #660000 }
+
+#contentC A:hover { text-decoration:none; color : #000000  }
+
+#contentD
+{	
+	font-weight : bold;
+	border-right : 1px solid #000000;
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM:3px;
+    PADDING-TOP: 3px;
+    FONT-FAMILY: Arial, Verdana
+
+}
+#contentD A:link { text-decoration:none; color : #CC3333 }
+
+#contentD A:visited { text-decoration:none; color : #CC3333 }
+
+#contentD A:hover { text-decoration:none; color : #000000  }
+
+
+#ht
+{
+    font-weight: bold; 
+	PADDING-TOP: 10px;
+    PADDING-LEFT: 20px;
+    FONT-SIZE: 13px;
+    COLOR : #000000;
+    FONT-FAMILY: Arial, Verdana
+}
+
+
+#contentF
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 1px;
+    PADDING-TOP: 1px;
+    FONT-FAMILY: Arial, Verdana
+}
+
+
+#footer
+{
+    PADDING-RIGHT: 35px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #000000;
+    PADDING-TOP: 5px;
+    FONT-FAMILY: Verdana, Georgia
+    
+    
+}
+#footer A:link { text-decoration:none; color : #660000}
+
+#footer A:visited { text-decoration:none; color : #660000 }
+
+#footer A:hover { text-decoration:underline; color : #333333 }
+
+
+#footerB
+{
+    PADDING-RIGHT: 5px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 10px;
+    COLOR: gray;
+    PADDING-TOP: 5px;
+    FONT-FAMILY: Verdana, Georgia
+  
+    
+}
+#footerB A:link { text-decoration:none; color : #CC3333}
+
+#footerB A:visited { text-decoration:none; color : #CC3333 }
+
+#footerB A:hover { text-decoration:none; color : #000000 }
+
+
+#menu
+{
+    font-weight: bold;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 15px;
+    FONT-SIZE: 10px;
+	COLOR: #003333;
+    PADDING-BOTTOM: 4px;
+    PADDING-TOP: 4px;
+	FONT-FAMILY: Verdana, Georgia
+}
+
+#menu A:link { text-decoration:none; color : #cccccc}
+
+#menu A:visited { text-decoration:none; color : #cccccc }
+
+#menu A:hover { text-decoration:none; color : #660000 }
+
+#bottom_menu
+{	
+    
+	PADDING-RIGHT: 20px;
+    PADDING-LEFT: 0px;
+	PADDING-top: 2px;
+    FONT-SIZE: 12px;
+	COLOR: #000000;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial
+
+}
+#bottom_menu A:link { text-decoration:none; color : #ffffff }
+
+#bottom_menu A:visited { text-decoration:none; color : #ffffff }
+
+#bottom_menu A:hover { text-decoration:none; color : #999966
+}
+
+#date
+{
+    FONT-SIZE: small;
+    COLOR: white;
+	TEXT-DECORATION:strong;
+    FONT-FAMILY: Arial
+}
+#event
+{
+    PADDING-LEFT: 10px;
+    FONT-SIZE: x-small;
+    COLOR: white;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: underline
+}
+#event A:link { text-decoration:none; color : #CCCCCC}
+
+#event A:visited { text-decoration:none; color : #CCCCCC }
+
+#event A:hover { text-decoration:none; color : #000000 }
+
+
+#eventdescription
+{
+    PADDING-LEFT: 15px;
+    FONT-SIZE: xx-small;
+    PADDING-BOTTOM: 5px;
+    COLOR: #ffffff;
+    PADDING-TOP: 5px;
+    FONT-FAMILY: Verdana, Georgia
+}
+
+#eventdescription A:link { text-decoration:none; color : #CCCCCC}
+
+#eventdescription A:visited { text-decoration:none; color : #CCCCCC }
+
+#eventdescription A:hover { text-decoration:none; color : #000000 }
+
+
+
+
+#indent
+{	
+    text-indent: -20px;
+	PADDING-RIGHT: 5px;
+    PADDING-LEFT: 70px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial, Verdana
+ }
+
+#indentB
+{	
+    text-indent: -15px;
+	PADDING-RIGHT: 5px;
+    PADDING-LEFT: 30px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 10px;
+    FONT-FAMILY: Arial, Verdana
+ }
+ #indentC
+{	
+    text-indent: -15px;
+	PADDING-RIGHT: 5px;
+    PADDING-LEFT: 30px;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial, Verdana
+ }
+ 
