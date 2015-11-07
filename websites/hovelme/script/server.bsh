@@ -1,0 +1,3 @@
+#!/bin/bash
+#/cygdrive/c/xampp/php/php.exe C:/xampp/htdocs/hovelme/script/server.php
+./php C:/xampp/htdocs/hovelme/script/server.php

@@ -1,0 +1,42 @@
+<!--
+h1
+{
+font-size: 72;
+font-family: Monotype Corsiva;
+text-decoration: overline underline;
+}
+
+font
+{
+color: white;
+}
+
+a:hover
+{
+color: lime;
+text-decoration: none;
+}
+
+a:visited
+{
+color: red;
+}
+
+a:link
+{
+color: red;
+}
+
+body
+{
+background: url("../images/4bg.bmp");
+background-attachment: fixed;
+}
+
+b
+{
+font-size: 96;
+background: url("images/small4bg.bmp");
+background-position: 10% -100%;
+}
+//-->

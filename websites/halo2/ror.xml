@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="http://www.rorweb.com/ror.css" type="text/css"?>
+<!-- This is a ROR formatted XML document describing the resources of the website http://all4free.vze.com/. For information about the ROR format, go to www.rorweb.com --> 
+<rdf:RDF xmlns="http://rorweb.com/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
+
+<!-- ******************** Main Info ******************** --> 
+<Resource rdf:about="main">
+    <rorinfo>This is a ROR formatted XML document describing the resources of the website http://all4free.vze.com/. For information about the ROR format, go to www.rorweb.com</rorinfo>
+    <type>Main</type>
+    <type>Website</type>
+    <title>All4Free</title>
+    <url>http://all4free.vze.com/</url>
+    <desc>Halo 2 and funny stuff on this website.</desc>
+    <keywords>Halo 2, Funny, Annoying, Emblem, TheWandererLee, Hall of Fame, Stats, Crazy, Thoughts, All, 4, Free, All4Free</keywords>
+</Resource>
+
+<!-- ******************** Contact Info ***************** --> 
+<Resource rdf:about="contact">
+    <type>Contact</type>
+    <title>Contact Info</title>
+    <name>All4Free</name>
+    <url>http://all4free.vze.com/</url>
+    <phone>8932818126</phone>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="address">
+    <type>Address</type>
+    <title>Address</title>
+    <address1>3534 Understate Rd.</address1>
+    <city>Usta</city>
+    <postalCode>28470</postalCode>
+    <stateRegion>South Dakota</stateRegion>
+    <country>US</country>
+    <resourceOf rdf:resource="contact"/>
+</Resource>
+
+<!-- ******************** Site Map Info ***************** --> 
+<Resource rdf:about="sitemap">
+    <type>SiteMap</type>
+    <title>Site Map</title>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="map-about">
+    <title>About</title>
+    <seeAlso rdf:resource="main"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+<Resource rdf:about="map-contact">
+    <title>Contact</title>
+    <seeAlso rdf:resource="contact"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+</rdf:RDF>
+
+
+
+
+
+

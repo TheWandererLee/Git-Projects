@@ -1,0 +1,101 @@
+##################### Non-cents #################################
+
+WORMS clone ?
+DrawSomething clone for iPhone
+Game earned trophies that can be added to users rooms
+
+Old info for www.hovel.me: 208.109.78.120
+
+
+##################### Efficiency Notes ##########################
+
+Firefox parses mouse actions, draw, container movement, fastest
+Chrome sends packets fastest
+IE fails at life
+########## Known compatibility issues, bugs, changes ############
+
+05NOV2012
+::::::::::Can't see zombies that were created before we joined the room. Even if they're destroyed & recreated again.
+::::::::::Bullets appear to continue through zombies after they're destroyed on other players
+27OCT2012
+::::::::::Aiming is only at precision of 128 different directions.
+::::::::::Players linked.
+24OCT2012
+>>>>>>>>>>Player variables are getting reset onconnection, erasing syncDelay variable. Need this variable for correct sync
+23OCT2012
+>FIXED>>>>Still have first delta problem. Coule be firing calculation issue, or need simple first step subtraction
+>>>>>>>>>>All "realtime" position calculations still off when sending to another player. Some required variables for delta step calculation are not being sent: most likely only each game's individual time sync. Since every game is calculating all players using their own sync
+::::::::::Fixed timing issue because for loop would always continue to end of pbuffer instead of stopping at first match
+::::::::::Buffer still needs to be optimized and reduced in size realtime
+22OCT2012
+>>>>>>>>>>Something is wrong with delta relation from game start to first action.
+>>>>>>>>>>Firing immediately at game start sets the sync, firing while moving loses sync
+21OCT2012
+>>>>>>>>>>Time difference in client/server movement sync cause: client is on step-sequence, server calculates at exact time of movement. causing milliseconds of variance
+##########Need to add (if bufferlength = 0, calculate this action based on default starting position [OR, INITIATE PLAYER WITH BUFFER[0] FILLED WITH THEIR STARTING POSITION & MOVEMENT]
+20OCT2012
+::::::::::Took half an hour to debug an error caused by using + to append strings in PHP instead of . JavaScript/PHP simultaneous programming fail
+::::::::::Capitalization error in data parsing cost another half hour. Work slows down a lot at night
+::::::::::Another half hour for Javascript/PHP dissimilarity, forgetting to first reference Global in PHP
+19OCT2012
+>>>>>>>>>>Using 7-bit data storage, Javascript only sending string (UTF-8) packets
+10OCT2012
+::::::::::Added a lot more server control. Data/binary packets using ArrayBuffer / DataView
+::::::::::Merging to make server authoritative
+>>>>>>>>>>DataView causes severe slow down of packets on Chrome. Firefox does not support it. Retains speed on opera
+::::::::::Receiving packets faster than 10-20 per second may not be feasible. Browsers get behind
+28MAY2012
+>>>>>>>>>>ASSAULT object will not change direction at all if moving extremely slight(1px) amounts
+27MAY2012
+::::::::::(multiple)Attack added,  toolbars working/assigned to objects/objects receive commands from toolbar, objects given select actions, teams assigned, multiple select, variable grid fixed
+26MAY2012
+::::::::::Direction added, object dynamic dimensions added, toolbar actions/active actions
+25MAY2012
+::::::::::Still working on hovel assault. Have unit selection, movement, basic pause, toolbars & highlight
+18MAY2012
+::::::::::Allowed dynamic adding of events to container movement/resize. Further separated modules
+13MAY2012
+::::::::::Merged hovelme.com into hovelme. Tweaked hovelme.com, changed all document.getElementById( to $(
+>>>>>>>>>>iPhone gets "mouse" STUCK on any button or element clicked on and drags lines from it when drawing
+>>>>>>>>>>iPhone does not correctly report page scroll if the page is already scrolled to that position when the page is loaded. Will cause an initial trailing line to be drawn every time
+12MAY2012
+::::::::::Multi user drawing with sockets. Cleanup
+09MAY2012
+::::::::::[FIXED]Safari will NOT let go of the mouse button if mouse press & RELEASE ON SCROLLBAR and will drag all over screen
+>>>>>>>>>>IE8 does not support canvas at all, IE does not support websockets at all
+>>>>>>>>>>Safari/Mobile Safari & Opera (Hixie-76 WebSockets) does not receive a response immediately after connecting
+>>>>>>>>>>Firefox lags badly causing the most severe backup of all browsers when sending many packets.
+06MAY2012
+::::::::::Hixie-76 Browsers cluster packets together, causing 0x00 and 0xFF be found multiple times in the same packets in clustered messages. RFC 6455 Browsers send packets instantaneously, regardless of speed/size sent.
+::::::::::Added support for browsers using legacy WebSocket drafts. (Opera, Safari, iOS). Server selectively sends RFC6455 or Hixie-76 messages based on WebSocket protocol requested.
+05MAY2012
+::::::::::Added name changing, ASCII safeguarding against characters outside 0x20-0x7F range
+03MAY2012
+::::::::::Project begins, chat server running
+
+Always implied: Fixed tons of bugs, optimized
+
+############# RIGOR MORTIS CURRENT HACKS THAT NEED TO BE FIXED #######
+Client can spam keyup send and server will repeatedly increase their speed
+
+
+## WebSocket Compatibility ##
+
+Opera -- about:config - Enable Web Sockets
+
+
+####### COMPATIBILITY & BROWSER SUPPORT ##########
+
+iPhone uses "CAF" audio files. Convert to .AIF/.AIFF and rename extension to .caf
+
+OPERA & SAFARI DO NOT SUPPORT [CURSOR:NONE]
+
+http://caniuse.com/webgl
+
+Chrome: Full
+Firefox: Use latest version and "about:config and filter by webgl.force-enabled"
+Opera: 12 [Opera Next] (use opera:gpu to check if blacklisted)
+WebKit:Nightly? or 5+ (Safari > Preferences > Advanced > Show Develop menu in menu bar | Develop > Enable WebGL)
+IE: Chrome Frame?
+
+Graphics card driver MUST NOT BE BLACKLISTED for these to work

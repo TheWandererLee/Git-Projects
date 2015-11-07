@@ -1,0 +1,31 @@
+* {margin:0;padding:0;}
+input[type="text"] { border: 1px solid #CC0; }
+
+body {
+    background: #444;
+    color: #FFF;
+    font: 12px "Courier New", monospace;
+    /* overflow: hidden; */
+}
+
+#main {
+    margin: 0 auto;
+    width: 1290px;
+    height: 672px;
+    outline: 1px dashed #666;
+    position: relative;
+}
+#container {
+    margin: 0 auto;
+    width: 1034px;
+    height: 540px;
+    outline: 1px dotted #AA0;
+    position: relative;
+}
+
+#toolboxModule div {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: #CCC;
+}

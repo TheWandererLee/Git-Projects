@@ -1,0 +1,271 @@
+/*
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
+
+* {margin:0; padding:0; vertical-align: baseline;}
+table { border-collapse: collapse; border-spacing: 0; }
+
+html, body { width: 100%; height: 100%; overflow: hidden; min-height: 505px; }
+body { background: #444; color: #FFF; font: 12px "Courier New", monospace; }
+
+table { border-spacing: 0px; border: none 0px; }
+
+h1 { font-size: 24px; color: #CCC; text-shadow: #9CF 0px 0px 16px; }
+h2 { font-size: 20px; color: #CCC; text-shadow: #693 1px 1px 4px; }
+
+a { text-decoration: none; color: #09D; font-weight: bold; }
+a:hover { text-decoration: underline; }
+
+input::-moz-focus-inner { border:0;padding:0; }
+input[type="text"], input[type="password"] {
+    border: 1px solid #CC0;
+    font: 12px "Courier New", monospace;
+    height: 20px;
+    text-shadow: 1px 1px 0px #000;
+    color: #DDD;
+    background: none;
+}
+input[type="button"] {
+    border: 1px solid #0C0;
+    font: 12px "Courier New", monospace;
+    height: 20px;
+    text-shadow: 1px 1px 0px #000;
+    color: #DDD;
+    background: none;
+}
+input[type="button"]:hover {
+    cursor: pointer; background: #666;
+}
+
+#viewframe { position: absolute; width: 100%; height: 100%; overflow: auto; }
+#innerViewframe { position: absolute; width: 100%; height: 400px; overflow-y: auto; overflow-x: hidden; } /* Set Height of innerViewframe to change the visible pageHeight. Vertical browser scrollbar only. Page MUST not exceed this after initialization or mouse-y return values will be incorrect on firefox */
+#upperBody { position: absolute; overflow: hidden; }
+#body { position: absolute; }
+
+.edge { position: absolute; color: #F00; background: url('../image/edge.png') repeat-y; z-index: -1000000001; visibility: visible; }
+#edgeFarLeft { background-position: 0px 0px; }
+#edgeLeft { background-position: -3px 0px; }
+#edgeCenter { background-position: -6px 0px; }
+#edgeRight { background-position: -11px 0px; }
+#edgeFarRight { background-position: -14px 0px; }
+
+#toolbar {
+	background: url('../image/bg.png');
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	width: 800px;
+        height: 32px; /* Height must be initiated in page if starting at height > 32, due to transition from 0 glitch. */
+	margin: 0px auto;
+	border: solid 2px #333; border-top: none 0px;
+	position: relative;
+	border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; -webkit-border-bottom-left-radius: 16px; -webkit-border-bottom-right-radius: 16px; -moz-border-radius-bottomleft: 16px; -moz-border-radius-bottomright: 16px;
+	z-index: 1000000001;
+	overflow: hidden;
+}
+#toolbar input {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#toolbar input.text, input.email {
+	/* background: #FFF;
+	color: #000; */
+	font-size: 12px;
+	font-weight: bold;
+	width: 128px;
+}
+#toolbar input.button {
+	width: 64px;
+	height: 20px;
+	background: #336;
+	border: solid 1px #CCC;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: #666 -1px -1px 1px;
+}
+#toolbar form { width: 100%; height: 32px; }
+#toolbar .left { position: absolute; top: 2px; left: 12px; }
+#toolbar .right { float: right; position: relative; top: 6px; right: 12px; }
+#toolbar .rightText { float: right; position: relative; top: 8px; right: 12px; }
+
+#createAccountLabel { display: inline; width: 400px; }
+
+#createAccountContainer { display: block; width: 768px; height: 400px; position: relative; top: 32px; left: 16px; padding-top: 64px; }
+
+#createAccountTitle { clear: both; width: 352px; text-align: right; }
+#createAccountHeader { clear: both; display: block; color: #FFF; text-shadow: #333 1px 1px 2px; width: 352px; height: 16px; margin: 16px 0px; text-align: center; background: #07A; border: none 0px; border-top: solid 1px #ADD; border-bottom: solid 1px #699; border-radius: 6px; }
+
+#createAccountWindow { float: left; width: 352px; }
+#createAccountWindow2 { float: right; width: 352px; }
+
+.createAccountTable { width: 100%; }
+.createAccountTable input.email { width: 192px; }
+.createAccountTable td { width: 160px; height: 24px; }
+.createAccountTable td:first-child { text-align: right; padding-right: 8px; }
+.createAccountTable td.continue { text-align: center; padding-top: 8px; }
+.createAccountTable select { font-weight: bold; color: #FFF; text-shadow: #333 -1px -1px 1px; background: #363; border: solid 1px #CFC; border-right-color: #474; border-bottom-color: #474; font-family: Tahoma, Geneva, sans-serif; }
+
+#createAccountInfo { clear: both; position: relative; top: 32px; color: #CCC; }
+
+#createAccountFooter { text-align: right; position: relative; top: 32px; left: -16px; }
+
+#slider { position: absolute; z-index: 1000000001; background: #000; border: 1px solid #666; }
+#slider #slideBar { position: absolute; border: 1px solid #FFF; background: #666; opacity: 0.8; filter:alpha(opacity=80); /*url('../image/bg.png');*/ }
+#slider #slideBarClone { position: absolute; border: 1px solid #999; background: #333; visibility: hidden; opacity: 0.5; filter:alpha(opacity=50); /*url('../image/bg.png');*/ }
+#slider #slideAmount { font-family: Tahoma, Geneva, sans-serif; font-size: 24px; padding-left: 16px; font-weight: bold; cursor: default; color: #CCC; }
+
+.sideArrow { background: url('../image/sprites.png'); width: 24px; height: 32px; margin: auto; }
+
+#arrowLeft { position: absolute; left: 0px; top: 0px; width: 64px; height: 100%; z-index: -2; float: left; filter: alpha(opacity=0); }
+#arrowLeft .sideArrow { background-position: 0px 0px; }
+
+#arrowRight { position: absolute; right: 0px; top: 0px; width: 64px; height: 100%; z-index: -2; float: left; filter: alpha(opacity=0); }
+#arrowRight .sideArrow { background-position: -24px 0px; }
+
+.conResizer {
+	background: url('../image/sprites.png'); width: 9px; height: 9px; background-position: 0px -32px;
+	position: absolute;
+	bottom: -1px; right: -1px;
+	cursor: se-resize;
+}
+
+.conText {
+	border: 3px solid #666;
+	
+	position: absolute;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	
+	box-shadow: 4px 4px 16px #000;
+	-webkit-box-shadow: 4px 4px 16px #000;
+	-moz-box-shadow: 4px 4px 16px #000;
+}
+
+.conMain {
+	border: 1px solid #333; position: absolute;
+	
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+.conBorderless { border: 0px none; position: absolute; }
+
+.conHeader {
+	cursor: move;
+	width: 100%;
+	height: 24px;
+	font-weight: bold;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 14px;
+	text-align: center;
+}
+
+/*******************************************************************************/
+/************************** MODULES & POST-HOVEL MERGE *************************/
+/*******************************************************************************/
+
+/*
+#main {
+    margin: 0 auto;
+    width: 1290px;
+    height: 672px;
+    outline: 1px dashed #666;
+    position: relative;
+}
+#container {
+    margin: 0 auto;
+    width: 1034px;
+    height: 540px;
+    outline: 1px dotted #AA0;
+    position: relative;
+}
+*/
+
+#drawModule {
+    /*outline: 2px dotted #A00;*/
+    margin: 0 auto;
+    cursor: crosshair;
+    position: relative;
+}
+#drawModule #drawPanel {
+    position: absolute;
+    right: 0px; bottom: 0px;
+}
+#drawModule #drawPanel input[type="button"] { width: 64px; }
+#drawModuleMain { width: 100%; height: 100%; }
+
+#chatModule {
+    outline: 1px solid #777;
+    background: #333;
+    position: absolute;
+    text-shadow: 1px 1px 0px #000;
+}
+#chatIE { display: none; text-align: center; }
+#chatModule .chatButton { position: absolute; width: 24px; height: 22px; right: 0px; cursor: pointer; text-align: center; margin-top: 1px; margin-right: 1px; }
+#chatModule #chatBtnMin { right: 18px; background: url('../image/chatMin.png'); }
+#chatModule #chatBtn { display: none; background: url('../image/chat.png'); }
+#chatModule input { vertical-align: middle; margin-top: 2px; }
+#chatModule input#chatConnect { margin-top: 0px; width: 88px; }
+#chatModule input#chatDisconnect { margin-left: 2px; width: 92px; }
+#chatModule input#chatSend { width: 48px; }
+#chatModule input#chatName { width: 128px; height: 20px; font-size: 14px; font-weight: bold; }
+#chatDisconnected { display: block; text-align: center; padding-top: 16px; }
+#chatConnected { display: none; }
+#chatArea { overflow-x: hidden; overflow-y: scroll; width: 100%; }
+#chatArea .clientMsg { color: #AFE; }
+#chatArea .clientNote { font-style: italic; color: #3C3; }
+#chatArea .clientWarning { font-style: italic; color: #FF3; }
+#chatArea .serverNote { font-style: italic; color: #AAA; }
+#chatArea .serverWarning { font-weight: bold; color: #F33; }
+#chatArea b { color: #CCC; }
+
+#assaultModule { /*outline: 1px dotted #0F0;*/ }
+#assaultModulePause { position: absolute; right: 2px; top: 2px; opacity: 0.5; }
+#assaultModulePause:hover {
+    border: 1px #000 solid;
+    right: 1px; top: 1px;
+}
+#assaultModulePause div { width: 6px; height: 16px; border: 2px solid #933; border-left: 3px solid #933; border-right: 4px solid #933; background: #FFF; float: right; }
+
+#toolboxModule { }
+#toolboxModule input {
+    width: 24px; height: 24px; margin: 2px;
+    background: #6CC;
+}
+#toolboxModule .toolboxGroup {
+    text-align: center;
+    width: 85%;
+    margin: 8px auto;
+    border-radius: 4px;
+    border: 1px solid #888;
+}
+#toolboxModule .toolboxGroup .toolboxTitle { text-align: center; height: 14px; padding: 0 4px; position: relative; top: -8px; background-color: #006; }
+
+.toolboxToolbar {
+    background: #F00; text-align: center;
+}
+.toolboxToolbar a {
+    display: inline-block;
+    width: 16px; height: 16px; margin: 3px 2px 0;
+    cursor: pointer;
+}
+
+.toolboxToolbar a.delete { background: url('../image/toolbox/trashe.gif'); }
+.toolboxToolbar a.delete:hover { background: url('../image/toolbox/trashf.gif'); }
+
+.toolboxToolbar a.save { background: url('../image/toolbox/save.gif'); }
+.toolboxToolbar a.save:hover { outline: 1px solid #FFF; }

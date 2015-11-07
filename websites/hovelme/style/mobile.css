@@ -1,0 +1,2 @@
+#viewframe { height: 505px; overflow: hidden; }
+#innerViewframe { overflow: hidden; } /* Blocks iPhone from scrolling if we set this height to very minimum */
