@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Icon_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_23.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checked.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Unchecked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Unchecked.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customSearchIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customSearchIcon.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonA.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonB.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonBack.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonBlack.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonL.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonLeft.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonLeftThumbDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonLeftThumbDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonLeftThumbUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonLeftThumbUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonR.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRight.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRightThumbDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRightThumbDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonRightThumbUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonRightThumbUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonStart.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonUp.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonWhite.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonX.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonY.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorBlue.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorBrown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorCobalt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorCobalt.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorCrimson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorCrimson.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorCyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorCyan.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorGold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorGold.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorGreen.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorOlive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorOlive.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorOrange.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorPink.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorPurple.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorRed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorSage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorSage.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorSteel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorSteel.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorTan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorTan.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorTeal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorTeal.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorViolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorViolet.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorWhite.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalAssassin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalAssassin.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalBonecracker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalBeatDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalBerserker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalBerserker.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalBombCarrierKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalBombCarrierKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalBombPlanted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalBombPlanted.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalBombReturned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalBombReturned.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalBombTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalBombTaken.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalCarjack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalCarjack.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalDoNotEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalDoNotEnter.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalDoubleKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalDoubleKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalFlagCaptured" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalFlagCaptured.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalFlagCarrierKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalFlagCarrierKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalFlagReturned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalFlagReturned.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalFlagTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalFlagTaken.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalKillFrenzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalKillfrenzy.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalKillimanjaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalKillimanjaro.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalKillingSpree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalKillingSpree.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalKilltacular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalKilltacular.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalKilltrocity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalKilltrocity.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalOddballCarrierKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalOddballCarrierKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalOverkill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalOverkill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalRampage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalRampage.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalRunningRiot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalRunningRiot.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalSniperKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalSniperKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalSplatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalSplatter.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalStick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalStick.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalTripleKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalTripleKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medalUnknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medalUnknown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalAssssin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalAssssin.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalBeatDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalBeatDown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalBerserker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalBerserker.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalBombCarrierKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalBombCarrierKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalBombPlanted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalBombPlanted.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalBombReturned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalBombReturned.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalBombTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalBombTaken.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalCarjack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalCarjack.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalDoNotEnter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalDoNotEnter.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalDoubleKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalDoubleKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalFlagCaptured" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalFlagCaptured.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalFlagCarrierKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalFlagCarrierKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalFlagReturned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalFlagReturned.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalFlagTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalFlagTaken.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalKillfrenzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalKillfrenzy.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalKillimanjaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalKillimanjaro.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalKillingSpree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalKillingSpree.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalKilltacular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalKilltacular.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalKilltrocity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalKilltrocity.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalOddballCarrierKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalOddballCarrierKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalOverkill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalOverkill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalRampage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalRampage.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalRunningRiot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalRunningRiot.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalSniperKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalSniperKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalSplatter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalSplatter.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalStick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalStick.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalTripleKill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalTripleKill.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallMedalUnknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smallMedalUnknown.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolCamera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolCamera.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolCheck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolCheck.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolDownload.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolFlag.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolFlat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolFlat.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolGuest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolGuest.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolLock.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolSmile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolSmile.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolStar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolStar.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolTongue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolTongue.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolWink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolWink.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbolX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\symbolX.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponBattleRifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponBattleRifle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponBeamRifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponBeamRifle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponBomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponBomb.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponBrutePlasmaRifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponBrutePlasmaRifle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponBruteShot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponBruteShot.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponCarbine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponCarbine.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponDisintegrator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponDisintegrator.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponFlag.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponFlamethrower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponFlamethrower.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonLeftThumbMedium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponLeftThumbMedium.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponMagnum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponMagnum.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponNeedler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponNeedler.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponOddball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponOddball.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponPlasmaPistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponPlasmaPistol.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponPlasmaRifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponPlasmaRifle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponPrototypePlasmaPistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponPrototypePlasmaPistol.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponRightThumbMedium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponRightThumbMedium.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponRocketLauncher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponRocketLauncher.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSentinelBeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSentinelBeam.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSentinelBeamBallContrail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSentinelBeamBallContrail.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSentinelGrenadeLauncher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSentinelBeamBalls.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSentinelBeamTriple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSentinelBeamTriple.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponFuelRodCannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSentinelGrenadeLauncher.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponShotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponShotgun.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSMG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSMG.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSMGScope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSMGScope.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSniperRifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSniperRifle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weaponSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weaponSword.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noImagePreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noImagePreview.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

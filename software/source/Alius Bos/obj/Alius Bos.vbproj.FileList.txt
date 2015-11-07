@@ -1,0 +1,28 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Alius_Bos.formMain.resources
+obj\Debug\Alius_Bos.Resources.resources
+obj\Debug\Alius Bos.vbproj.GenerateResource.Cache
+bin\Release\Alius Bos.exe.manifest
+bin\Release\Alius Bos.application
+bin\Release\Alius Bos.exe
+bin\Release\Alius Bos.pdb
+bin\Release\Alius Bos.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Alius_Bos.formMain.resources
+obj\Release\Alius_Bos.Resources.resources
+obj\Release\Alius Bos.vbproj.GenerateResource.Cache
+obj\Release\Alius Bos.exe.manifest
+obj\Release\Alius Bos.application
+obj\Release\Alius Bos.exe
+obj\Release\Alius Bos.xml
+obj\Release\Alius Bos.pdb
+bin\Debug\Alius Bos v1.1.exe.manifest
+bin\Debug\Alius Bos v1.1.application
+bin\Debug\Alius Bos v1.1.exe
+bin\Debug\Alius Bos v1.1.pdb
+bin\Debug\Alius Bos v1.xml
+obj\Debug\Alius Bos v1.1.exe.manifest
+obj\Debug\Alius Bos v1.1.application
+obj\Debug\Alius Bos v1.1.exe
+obj\Debug\Alius Bos v1.xml
+obj\Debug\Alius Bos v1.1.pdb
