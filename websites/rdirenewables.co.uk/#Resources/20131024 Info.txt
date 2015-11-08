@@ -1,0 +1,26 @@
+The best way to go about this is have each page pulling from a single file, and only changing the name of what the file appears to be. For example, every page will link as index.php?page=central_heating, index.php?page=gas_boilers. Therefore, every page is actually pulling from the same file, only changing certain content on each page. Through the .htaccess file, you do a mod_rewrite to cause everyone that vists a match to rdirenewables.co.uk/index.php?page=gas_boilers, to be shown the URL rdirenewables.co.uk/gas_boilers. This is how Joomla, WordPress, and nearly all CMS do it.
+
+For now, I have simply made the sections you've pointed in the email to be editable, through files in the /template folder.
+If you decide to go the other route, we can reverse it, where it will pull from a single index.php file, and load the center content from the template folder instead of pulling the side/header content. All html is valid within these files, and can potentially disrupt your page if you leave an extra </div> or something as is usual with HTML. Changes seen at http://rdirenewables.co.uk/new/
+
+1: Menu is pulled from templates/menu.html file. Cleaned up the format, indentation, and tags here for easier HTML edit-ability.
+2: Header text is pulled from templates/header.html file. Cleaned up.
+3: Side Article Offer: templates/sidebar.html file. This is only the form (section currently shown with green background).
+-Adding more form input boxes or other variables to this should send via email as well, as long as it has a 'name' attribute. Back-end (bookingForm.php) may need to be coded more in the future though if you plan on completely overhauling this form.
+-Fixed british pound sign here using &pound;
+4: Latest News: templates/ticker.html file. Cleaned up and indented.
+
+Added:
+index.php
+templates/ folder and (menu.html,header.html,sidebar.html,ticker.html)
+
+Removed:
+index.html
+
+Modified:
+bookingForm.php
+
+Please add $20 for these changes or send along with a later payment.
+
+Thanks,
+Daryll

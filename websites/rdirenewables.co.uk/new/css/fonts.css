@@ -1,0 +1,67 @@
+
+
+/* All texts font */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Weather report texts font */
+.header .header-weather .weather-report strong,
+.header .breaking-message strong,
+.header .logo-text {
+	font-family:'Montserrat', sans-serif;
+}
+
+
+/* Main menu font */
+.main-menu ul.main-menu-ul > li > a,
+.main-menu ul.main-menu-ul li ul li a,
+.main-menu ul.main-under-menu-ul li a {
+	font-family:'Montserrat', sans-serif;
+}
+
+
+/* Every single title font */
+.middle-side .middle-panel > h3,
+h4,
+h4 a.article-comment-icon,
+.left-article-block .article-content h2,
+.left-article-block .article-content h3,
+h2 a.article-comment-icon,
+h3 a.article-comment-icon,
+.category-right-block .article-content h2,
+.content-main-title h2,
+.content-blog .article-block-big-image .article-content h3,
+.content-blog .article-block-small-image h3,
+.article-big-header h2,
+.the-article-content .article-author .article-user strong,
+.comment-block .comments li .commment-content .user-nick,
+.comment-block .comments li .commment-content .marker,
+.comment-block .comments li .commment-content .icon-link,
+.comment-form h2.small-title, #respond h2.small-title,
+.the-error-msg strong,
+.the-error-msg span,
+.the-error-msg p,
+.photo-tile .gallery-title,
+.panel .side-comment .comment-content strong,
+#calendar_wrap table caption,
+.footer h2.footer-title {
+	font-family:'Montserrat';
+}
+
+
+/* Input & textarea font */
+.content input[type=text],
+.content textarea,
+.content input[type=submit] {
+	font-family:'Open Sans', Arial;
+}
+
+
+/* lightbox close button font */
+.lightbox .lightcontent .light-close, .lightbox .lightcontent-loading .light-close {
+	font-family: Arial;
+}
+
+

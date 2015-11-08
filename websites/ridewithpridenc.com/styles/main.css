@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;padding:0}
+
+body {
+	background: #CED1DE url('../images/bg.png') repeat-x scroll 0 32px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+a { text-decoration: none; color: #C00; }
+a:hover { text-decoration: underline; }
+img { border: none 0px; }
+
+#main { width: 85%; margin: 32px auto; min-width: 960px; }
+
+#logo { float: left; }
+#navigation {
+	float: left;
+	margin: 32px 0px 0px 16px;
+	font-size: 13px;
+}
+#navigation li { float: left; padding: 0 1px; text-align: center; }
+#navigation a { font-size: 14px; font-weight: bold; }
+
+#body { clear: both; }
+#footer { clear: both; margin-top: 24px; width: 100%; font-size: 11px; }
+#footer div { float: left; width: 33%; }
+
+.clear { clear: both; }
+
+.divleft { text-align: left; }
+.divmid { text-align: center; }
+.divright { text-align: right; }
+
+#background {
+	overflow: hidden;
+	position: absolute;
+	top: 432px;
+	width: 100%;
+	z-index: -10;
+}
+#background div {
+	height: 850px;
+	background: url('../images/bgMarina.jpg') no-repeat center;
+}
+
+.shadowWide { width: 320px; height: 214px; padding: 20px 21px 31px; margin: auto; background: url('../images/shadow320x214.png'); }
+.shadowWide img { width: 320px; height: 214px; }
+
+.shadowDual { width: 320px; height: 214px; padding: 20px 21px 31px; margin: auto; background: url('../images/shadow320x214.png'); }
+.shadowDual img { width: 160px; height: 214px; }
+
+.shadowTall { width: 315px; height: 420px; padding: 16px 21px 35px; background: url('../images/shadow315x420.png'); }
+.shadowTall img { width: 315px; height: 420px; }

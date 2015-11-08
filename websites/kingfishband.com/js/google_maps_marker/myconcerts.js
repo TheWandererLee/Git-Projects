@@ -1,0 +1,20 @@
+var myConcerts = [{
+year:2014,
+month:03,
+day:21,
+hour:18,
+minute:00,
+latitude:36.0755043,
+longitude:-95.9302041,
+location:'Bourbon Street Cafe',
+infoWindow:'6PM Concert at "Bourbon" Street 'Cafe''},
+{
+year:2016,
+month:03,
+day:21,
+hour:18,
+minute:00,
+latitude:37.0755043,
+longitude:-95.9302041,
+location:'Somewhere Else',
+infoWindow:'This is a non-existent concert.<br>Please ignore.'}];

@@ -1,0 +1,985 @@
+﻿/*
+ExpertAgent Stylesheet
+Date Created: 12th August 2009
+
+Last Updated: #
+Changes Made: #
+*/
+
+/*
+
+Stats:
+
+Width: 730px
+
+*/
+
+/* Global reset */
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal }
+q:before, q:after { content:''}
+/* The below restores some sensible defaults */
+strong { font-weight: bold }
+em { font-style: italic }
+a img { border:none } /* Gets rid of IE's blue borders */
+
+/* Styles */
+
+*, body, .col1, .col2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+body{
+	background-color: #fff;
+}
+
+a{
+	color: #000;
+	font-weight: bold;
+}
+
+/* This section contains the elements to set page-width */
+#contactMeContainer, #registerContainer, #loginContainer, #searchContainer, #propertyDetailsContainer, #requestViewingContainer, #shortListContainer, #emailFriendContainer{
+	width: 730px; /* Actual width (minimum 760px) */
+	margin: 0px auto;
+}
+
+#propListContainer {
+	width: 730px; /* Actual width*/
+	margin: 0px auto;
+}
+
+
+#propDetRightDiv {
+	float: left;
+	width: 420px;  /* = "Actual width" - 35 (20 if you don't care about IE6) pixels - Left Div width from below */
+	padding: 0 0 0 10px;
+}
+
+#propDetLeftDiv {
+	float: left;
+	width: 300px; /* Width of left div on Property Details Page - DO NOT CHANGE UNLESS YOU ARE CHANGING THE IMAGE / THUMB SIZES */
+}
+
+#propListToolBarCont{
+	width: 380px; /* = "Actual width" - "propListPrevNextCont" width from below */
+}
+
+#propListPrevNextCont{
+	display: inline;
+	float: left;
+	margin: 10px 0 15px 0;
+	font-weight: bold;
+	width: 350px; /* Leave this unless agent has hundreds of properties in which case also change width above to compensate */
+	background-color: #094f9d;
+	color: #fff;
+	height: 37px;
+}
+
+#propListPropertyList li {
+	width: 718px; /* = "Actual width" - 12 px */
+}
+
+.propListItemTemplateDescription {
+	width: 500px; /* = "Actual width" - 235 px */
+}
+
+/* End of page-width section */
+
+
+#mainToolBar, #propDetToolBarCont1, #maintoolbarBtm, #propFavToolBar, #propFavToolBar,#propListToolBarCont{
+	font-weight: bold;
+	float: left;
+	background-color: #094f9d;
+	padding: 10px 0 10px 0;
+}
+
+#mainToolBar, #propDetToolBarCont1, #maintoolbarBtm, #propFavToolBar, #propFavToolBar {
+	width: 100%;
+}
+
+
+
+#mainToolBar a, #propListToolBarCont a, #propDetToolBarCont1 a, #maintoolbarBtm a, #propFavToolBar a, #propFavToolBar a{
+	color: #fff;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+
+#propListToolBarCont, #propDetToolBarCont1, #mainToolBar, #maintoolbarBtm, #propFavToolBar{
+	margin: 10px 0 15px 0;
+}
+
+#propListToolBarCont div, #propDetToolBarCont1 div, #mainToolBar div, #maintoolbarBtm div, #propFavToolBar div{
+	float: left;
+	display: inline;
+}
+
+#propDetToolBarCont1 .prevCont,#propDetToolBarCont1 .nextCont {
+	float:right;
+	margin: 0 10px 0 0;
+}
+
+
+
+#propListPrevNextCont a{
+	color: #fff;
+}
+
+
+td.col2{
+	margin-left: 10px;
+}
+
+ul#propListPropertyList {
+	clear: both;
+	overflow: auto; 
+}
+
+#poweringContent #propListContainer ul#propListPropertyList {
+	height:auto;
+	overflow: hidden;
+}
+
+
+
+/* Listing Specific */
+
+#propListContainer .pagingLinks{
+	display: inline;
+	float: right;
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+#propListContainer .pagingLinks td{
+	padding: 0 12px 0 0;
+}
+
+#propListPropertyList li {
+	padding: 10px 0 10px 10px;
+	clear: both;
+	margin-bottom: 10px;
+	background-color: #f3f3f3;
+	border: 1px dotted #c2c2c2;
+	position: relative;
+}
+
+.propListItemTemplateAdvertHeader{
+	float:left;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 40px 10px 0;
+}
+
+.propListItemTemplatePriceText {
+	float:right;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 10px 10px 0;
+}
+
+.propListItemTemplateDescription {
+	text-align:justify;
+	float:left;
+	margin: 0 0 10px 0;
+}
+
+.propListItemTemplatePropImage{
+	float: left;
+	height: 100%;
+}
+
+
+.propListItemTemplatePriority {
+	float:left;
+	text-align: left;
+	font-weight: bold;
+	color: #000;
+	margin: 0 40px 0 0;
+	width: 80px;
+}
+
+
+.propListItemTemplateBranch{
+	float:left;
+	text-align: right;
+	font-style:italic;
+	font-size: 10px;
+	margin: 0 40px 0 0;
+}
+
+
+.propListItemTemplateReference {
+	float:right;
+	text-align: right;
+	font-style:italic;
+	font-size: 10px;
+	margin-right: 20px;
+	width: 100px;
+}
+
+
+#propListContainer img{
+	vertical-align: bottom;
+	width: 200px;
+	margin-right: 10px;
+}
+
+.removeProp {
+	height: 100%;
+	width: 10px;
+	float:left;
+}
+
+.propListItemTemplateEmptyDiv{
+	clear: both;
+}
+
+.ribbon_sold {
+	background-image: url(poweringimages/soldStc.png);
+	background-repeat: no-repeat;
+	height: 123px;
+	width: 123px;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+}
+
+.ribbon_let {
+	background-image: url(poweringimages/letStc.png);
+	background-repeat: no-repeat;
+	height: 123px;
+	width: 123px;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+}
+
+.ribbon_underOffer {
+	background-image: url(poweringimages/underOffer.png);
+	background-repeat: no-repeat;
+	height: 123px;
+	width: 123px;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+}
+
+/* Registration page Specific */
+
+#registerCol1 #table1, #registerCol2 #table2{
+	width: 700px;
+}
+
+#registerCol1 .col1, #registerCol2 .col1{
+	width: 200px;
+}
+
+#registerCol1 .col2, #registerCol2 .col2{
+	width: 500px;
+}
+
+#registerCol1 tr, #registerCol2 tr{
+	height: 30px;
+}
+
+#divRegPages h4{
+	float:left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+#registercontainer #lblPasswordMsg{
+	display: block;
+	padding: 5px;
+	margin: 10px 0 10px 0;
+}
+
+#divRegPages{
+	width: 700px;
+	clear: both;
+}
+
+.titlebox{
+	width: 700px;
+}
+
+#TxtNotes{
+	width: 700px;
+}
+
+.formbuts{
+	background-color: #dcdcdc;
+	border-top: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #b2b2b2;
+	border-bottom: solid 1px #b2b2b2;
+	color: #333333;
+	padding-bottom: 3px;
+	height: 21px;
+	cursor: pointer;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+
+/* Property Details Specific */
+
+#propDetPowLogoCont {
+	text-align: center;
+	clear: both;
+}
+
+/* Property Search Specific */
+
+#searchContainer .scrolling {
+	clear: both;
+}
+
+#searchContainer .scrolling #titlebox h4{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#buttonContBtm{
+	display: none;
+}
+
+#searchContainer #formTable{
+	width: 330px;
+	margin-right: 20px;
+	float: left;
+}
+
+#searchContainer fieldset#basicSearch{
+	width: 350px;
+	margin: 0 20px 0 0;
+	float: left;
+	display: inline;
+}
+
+#searchContainer fieldset#advancedSearch{
+	width: 350px;
+	float: left;
+}
+
+#searchContainer #leftPane {
+	width: 370px;
+	float: left;
+}
+
+
+#searchContainer fieldset#buttons{
+	clear: both;
+}
+
+#searchContainer fieldset#highLowDD input#rdoSort_1 label{
+	float: left;
+	width: 100px;
+}
+
+#searchContainer fieldset#basicSearch label.searchLabel{
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+#searchContainer fieldset#basicSearch select, 
+#searchContainer fieldset#basicSearch input{
+	width: 350px;
+	float: left;
+}
+
+#searchContainer fieldset#highLowDD input#rdoSort_0{
+	width: 20px;
+	float: left;
+	margin: 0 10px 0;
+}
+
+#searchContainer fieldset#highLowDD#rdoSort_1{
+	width: 20px;
+	float: left;
+}
+
+#searchContainer #priceOrder{
+	display: inline;
+}
+#searchContainer fieldset#highLowDD {
+	width: 350px;
+	float: left;
+	margin: 10px 0 10px 0;
+	}
+#searchContainer fieldset#basicSearch .currencyLabel, #searchContainer fieldset#basicSearch .currencyDropdown{
+	display: none;
+}
+
+#searchContainer fieldset#basicSearch legend, #searchContainer fieldset#advancedSearch legend{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+#searchContainer #treenavTable{
+	width: 300px;
+	float: left;
+}
+
+#searchContainer #formTable .col1{
+	width: 200px;
+	height: 30px;
+}
+
+#searchContainer #titlebox h4{
+	margin: 0 0 10px 0;
+}
+
+#searchContainer .Scrolling h4{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+#searchContainer #mainToolBar{
+	clear: both;
+}
+
+#searchContainer #titlebox{
+	width: 700px;
+	clear: both;
+}
+
+.explRow{
+	font-style: italic;
+	height: 100px;
+}
+
+
+/* Request a Viewing Specific */
+
+#requestViewingContainer #PnlRequest{
+	display: none;
+}
+
+#PnlCustDetailsForm h4{
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+#PnlCustDetailsForm{
+	width: 700px;
+}
+
+#PnlCustDetailsForm table{
+	clear: both;
+}
+
+#pnlRequestBottom .LeftEnd{
+	width: 0px;
+	font-size: 1px;
+}
+
+#pnlRequestBottom  #TABLE1{
+	height: 30px;
+}
+
+#PnlCustDetailsForm #addressTable, #PnlCustDetailsForm #telTable{
+	padding: 10px;
+	width: 600px;
+}
+
+#PnlCustDetailsForm #addressTable .col1, #PnlCustDetailsForm #telTable .col1{
+	width: 200px;
+	height: 30px;
+}
+
+#PnlCustDetailsForm #addressTable .col2, #PnlCustDetailsForm #telTable .col2{
+	width: 400px;
+	height: 30px;
+}
+
+/* Login Specific */
+
+#loginContainer #mainToolBar div#prevCont {
+	float: left;
+	margin-right: 10px;
+}
+
+#loginContainer #mainToolBar div#registerCont {
+	float: left;
+}
+
+#loginContainer #mainToolBar div#forgotPassCont {
+	float: right;
+}
+
+#loginContainer table{
+	clear: both;
+}
+
+#loginContainer .titleRow{
+	font-weight: bold;
+}
+
+#loginContainer .footnoteTxt{
+	font-style: italic;
+}
+
+#loginContainer#loginContent{
+	padding: 10px;
+	width: 600px;
+}
+
+#loginContainer #loginContent .col1{
+	width: 200px;
+	height: 30px;
+}
+
+#loginContainer #loginContent .col2{
+	width: 400px;
+	height: 30px;
+}
+
+#loginContainer span.loginError{
+	font-weight: bold;
+	color: #000;
+	padding: 5px;
+	margin: 10px 0 10px 0;
+}
+
+/* SHortlist Specific */
+
+#shortListContainer #noProp{
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+/* Property Details */
+
+
+#propertyDetailsContainer {
+	padding-bottom: 10px;
+}
+
+#propDetAddressPriceCont1{
+	width: 100%;
+	padding: 10px 0 15px 0;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+#propDetMainImgCont1{
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin: 10px 6px 0 6px;
+}
+
+#propDetMainImgCont1 img{
+	width: 290px;
+}
+
+#propDetThumbnailCont1{
+	float: left;
+	width: 300px;
+	margin: 6px 0 0 6px;
+}
+
+#propDetThumbnailCont1 img{
+	max-width: 141px;
+	max-height: 120px;
+	margin: 0 0 6px 6px;
+}
+
+
+#propDetPropRefCont1{
+	width:100%;
+	margin: 10px 0 10px 0;
+	float:left;
+	text-align: left;
+	font-weight: bold;
+}
+
+
+#propDetPropRefCont1 span{
+	margin: 0 10px 0 0;
+	font-size: 14px;
+}
+
+#propDetIconsCont1{
+	width: 100%;
+	margin: 10px 0 10px 0;
+	float:left;
+	border: 1px solid #c9c9c9;
+	background-color: #f1f1f1;
+	padding: 15px 0 15px 0;
+}
+#propDetIconsCont1 li{
+	width: 100%;
+	float:left;
+}
+
+#propDetIconsCont1 a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+#propDetIconsCont1 span{
+	margin: 0 0 0 10px;
+	position: relative;
+	top: -10px;
+}
+
+#propDetShortDescCont1{
+	display: block;
+	clear:both;
+	text-align: left;
+	width:100%;
+	margin: 10px 0 0 0;
+}
+#propDetStarItemsCont1{
+	width:100%;
+	margin: 0px 0 0 10px;
+}
+
+#propDetStarItemsCont1 li{
+	display:inline;
+	float: left;
+	width: 48%;
+	margin: 0px 5px 5px 0;
+}
+
+
+#propDetRoomDetCont1{
+	width:100%;
+	margin: 10px 0 0 0px;
+	float:left;
+	text-align: left;
+}
+#propDetRoomDetCont1 .roomHeading{
+	margin: 0 3px 0 0;
+}
+#propDetRoomDetCont1 p {
+	text-align: left;
+}
+
+
+#propDetFavouriteCont1{
+	width:48%;
+	float:left;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 0 0;
+	text-align: center;
+	text-transform: capitalize;
+	border: 1px solid #c9c9c9;
+	background-color: #f1f1f1;
+}
+
+span.priceOrder input, span.priceOrder label{
+	float: left;
+	width: 50px;
+}
+
+.propDetPrintFriendlyCont{
+	width:48%;
+	float:right;
+	margin: 10px 0 0 0;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	text-transform: capitalize;
+	border: 1px solid #c9c9c9;
+	background-color: #f1f1f1;
+}
+
+.propDetPrintFriendlyCont a, #propDetFavouriteCont1 a{
+	color: #000;
+}
+
+#propDetPowLogoCont {
+	clear: both;
+	text-align: center;
+}
+
+#propDetPowLogoCont img{
+	background-image: url('/images/poweringLogo.gif');
+	width:111px;
+	height:31px;
+}
+
+table#subtoolLinks input{
+	margin: 0 0 10px 0;
+}
+
+.registerBody #maintoolbarBtm{
+	display: block;
+}	
+
+#propDetPrintFriendlyImage{
+	display: none;
+}
+
+span#propAddress{
+	margin: 0 0 0 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span#propPrice{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 0 50px;
+}
+
+#propDetPropRefCont1 #propBranch{
+	clear: both;
+}
+
+#propDetPropRefCont1 #propReference{
+	clear: both;
+}
+
+span.roomHeading{
+	font-weight: bold;
+}
+
+p.roomDescription{
+	margin-bottom: 20px;
+}
+
+/* Email a Friend */
+
+#emailFriendContainer #PnlSendEmail{
+	float: left;
+	width: 100%;
+}
+
+#emailFriendContainer #propertyDetail{
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+#emailFriendContainer h4{
+	float:left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 40px 10px 0;
+}
+
+#PnlSendEmail .col4 input{
+	margin: 0 15px 0 15px;
+}
+
+/* Property of the Week */
+
+#powBody{
+}
+
+#powContainer{
+	margin: 0px;
+	text-align: left;
+	width: 300px;
+	overflow: hidden;
+}
+
+#powContainer img{
+	width: 300px;
+	margin: 5px 0 5px 0;
+	float: left;
+}
+
+#powContainer #headingContainer{
+	float:left;
+	width: 300px;
+	font-weight: bold;
+	margin: 0 0 3px 0;
+	text-align: left;
+	font-weight: bold;
+}
+
+#powContainer #priceContainer{
+	float:left;
+	width: 300px;
+	font-weight: bold;
+	margin: 0 0 3px 0;
+	text-align: left;
+	font-weight: bold;
+}
+
+#powContainer #mainTextContainer{
+	float: left;
+	width: 300px;
+}
+#powContainer #mainTextContainer a{
+	color: #094f9d;
+}
+
+/* News */
+
+#newsItemHolder{
+	width: 100%;
+}
+#newsHeader1{
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+#newsContent1{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-top: dotted 1px #666666;
+}
+
+#newsItem .col2{
+	text-align: right;
+	color: #666666;
+	padding-right: 10px;
+}
+
+#contactMeContainer legend{
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+
+#contactMeContainer #subToolBar #sendCont{
+	margin: 10px 0 0 0;
+}
+
+#propFavPrintFriendlyCont{
+	display: none;
+}
+
+#contactMeContainer fieldset{
+	width: 150px;
+	float:left;
+	padding: 0 10px 0 0;
+}
+
+#contactMeContainer #propContainer{
+	width: 560px;
+	float:left;
+}
+
+#contactMeContainer #propTitle h4{
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+
+#propDirectHeader #agentLogo {
+	text-align:center;
+}
+#propDirectHeader #agencyDetails {
+	text-align:center;
+	margin: 0 0 10px 0;
+}
+#propDirectHeader #agencyDetails div {
+	display: inline;
+	margin: 0 10px 0 0;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+/*
+
+Forms
+
+*/
+
+
+
+/* Need to get padding in here without it effecting bloody everything */
+
+.requestViewingBody .weekDayStyle, 
+
+.requestViewingBody .selectedDateStyle, 
+
+.requestViewingBody .clearDateStyle, 
+
+.requestViewingBody .weekendStyle, 
+
+.requestViewingBody .dayHeaderStyle, 
+
+.requestViewingBody .goToTodayStyle, 
+
+.requestViewingBody .offMonthStyle, 
+
+.requestViewingBody .todayDayStyle, 
+
+.requestViewingBody .formels, 
+
+.requestViewingBody .monthHeaderStyle{
+
+        background-color: #fff;
+
+}
+
+
+
+.requestViewingBody .weekendStyle{
+
+        background-color: #f1f1f1;
+
+}
+
+
+
+.requestViewingBody .dayHeaderStyle{
+
+        background-color: #c8c8c8;
+
+}
+
+
+
+.requestViewingBody .monthHeaderStyle{
+
+        background-color: #545454;
+
+        color: #fff;
+
+}
+
+
+
+.requestViewingBody .goToTodayStyle{
+
+        background-color: #000;
+
+        color: #fff;
+
+}
+
+
+
+.requestViewingBody .offMonthStyle{
+
+        background-color: #f7fca8;
+
+
+}
+
+
+
+
+/* Map Stuff */
+
+/* mapping page styles---------------------------------------- */
+
+
+/* Do Not Change These */
+td#price {    font-weight:bold; }  td#powlink {    font-weight:bold; }  td#paging {     vertical-align:top;     height: 18px;     font-weight:bold; }    .select{ background-color: #ffffff; border: solid 1px #cec9c3; padding: 3px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; }  .DefaultPinOffset {position:absolute;left:0px;top:-20px;} .ActionButton {float:left; cursor:pointer; font-size:11px; font-weight:bold; color:Navy; padding:2px;} .ButtonDisabled {color: Gray;}    .ydsf { 	display: block; 	position: relative; 	margin: 4px -4px -4px 4px; 	background: url(images/shadow-grid.gif) repeat; }  /* ie6 ignores this selector */ html>body .ydsf {    height: 116px;     width: 154px; 	margin: 8px -8px -8px 8px; 	background: url(images/shadow.png) right bottom no-repeat; }  /* shadow corners */ .ydsf:before, .ydsf:after { 	content: " "; 	display: block; 	width: 8px; 	height: 8px; 	background: inherit;	 }  .ydsf:before { 	position: absolute; 	top: 0; 	right: 0; 	margin: -8px 0 0 auto; 	background-position: right top; }  .ydsf:after { 	margin: -8px 0 0 -8px; 	background-position: left bottom; }  .ydsf .inner {    border: 1px black; 	display: block; 	position: relative; 	overflow: hidden; /* prevents margin leakage from child elements */ 	left: -4px; 	top: -4px; }  /* ie6 ignores this selector */ html>body .ydsf .inner {    border: 1px black; 	left: -8px; 	top: -8px; 	margin: 0; }             /* The following control the size and styles of the main map elements */  /* The Body of the Map Page */ body#mapBody { 	margin: 0px; }  /* The "Key" heading on the search box */ .hdg{ position: absolute; left:0; top:0; width: 164px; height:12px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; border-bottom: solid 1px #cec9c3; color: #333333; background-color: #FFFFFF; background-position: center right; padding-left: 5px; padding-top:  8px; padding-bottom: 8px; }  /* The outer div of the search box, including heading */ #searchBox {     display:block;     position:relative;     left:0;     top:0;     width:169px;     height:100%; }  /* The inner div of the search box, including heading */ #searchBoxInnerDiv { border: solid 1px #cec9c3; border-top: none; position: absolute; left:0; top:0; width: 100%; height:100%; color: #333333; background: #EEEEEE; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }  /* The map div */ #myMap {     position: absolute;     left:171px;     top:0;     width: 428px;     height: 335px; }
+/* The toolbar along the top */ #mainToolbarContainer { 		position:absolute; 		top:0; 		left:0; 		width:600px; 		height:24px; }  /* The container around the whole map page excluding the toolbar*/ .mapPage {     position:absolute;     top:24px;     left:0;     width:599px;     height:335px;     border-top: solid 1px #cec9c3;     border-right: solid 1px #cec9c3;     border-bottom: solid 1px #cec9c3;   
+}

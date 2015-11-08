@@ -1,0 +1,47 @@
+
+/* Background color / image */
+body {
+	background-color:#f6f6f6;
+	/* background-image:url(../images/texture-1.png); */
+}
+
+/* Link colors */
+a {
+	color:#232323;
+}
+
+/* Link hover colors and comment tag colors */
+h2 a.article-comment-icon,
+h3 a.article-comment-icon,
+h4 a.article-comment-icon, 
+a:hover, 
+.header .header-top ul li a:hover {
+	color:#c53c1c;
+}
+
+/* Comment tag icon colors */
+h2 a.article-comment-icon .comment-icon,
+h3 a.article-comment-icon .comment-icon,
+h4 a.article-comment-icon .comment-icon {
+	background-color:#c53c1c;
+}
+
+/* Photo galleries hover border color */
+.photo-gallery-content .photo-gallery-layer .photo-tile:hover img {
+	box-shadow:inset 0px 0px 0px 10px #000000;
+}
+
+/* Photo galleries hover title background & text color */
+.photo-tile .gallery-title {
+	background:#000;
+	color:#fff;
+}
+
+/* Photo galleries active thumbnail border color */
+.photo-gallery-line .actual-photo-line ul li.active img {
+	box-shadow:inset 0px 0px 0px 5px #000;
+}
+
+
+
+

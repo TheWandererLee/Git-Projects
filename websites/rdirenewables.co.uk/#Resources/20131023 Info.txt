@@ -1,0 +1,25 @@
+Sent 10-23-2013
+
+Here is the progress, so far, all your changes have been finished, please transfer $60 to cover these changes and any work related to this set. If you would like something modified additionally that does not seem right I will do that no problem. The changes are uploaded at http://www.rdirenewables.co.uk/new/
+
+1: Removed
+2: Form emails you for now, all text is editable
+-Send button for "Book Your Green Deal Assessment" form was left styled as matched to the stylesheet, can be changed.
+3: Removed Calendar, Mailing List, and Side Articles
+4: Completed
+5: Erased dummy content separators, combined all into a single text-block, leaving the header texts.
+6: Slider implemented, script stored in willowSlider.js file
+-Interval/speed can be changed, I was wondering if you wanted only the text on the bottom to slide, or the entire image to fade, or as it is now.
+
+Files changed:
+    index.html, main-stylesheet.css
+Files added:
+    bookingForm.php, willowSlider.js, images/slider-1.png, images/slider-2.jpg, images/logos/top.jpg, images/logos/top2.jpg
+Files left unused:
+    images/book.png, images/no-banner-300x250.jpgI will also work with you later to optimize the website and clean it up if you still have more to do, it does seem there are a lot of unnecessary files & broken links, increasing load time. Combining files of the same type, scripts, images, stylesheets, can really cut down page load time here and browser requests.
+Having the sitemap and robots.txt is a good idea. Search engines do love static pages however you may want to be generating each of these with the same template using PHP, rather than copying page content many times for each subsequent page.
+The CMS will take quite some time, but will be more SEO friendly, or you could attempt to re-integrate the new template with Joomla. A lot of SEO is link backtracking and keywords being pulled from content. Having a blog or articles with constantly updated content can pull new users in through searches for more general keywords or phrases that aren't in your websites static text. I dabble in SEO and heavy optimization, however SEO is not my main line of work.
+
+Happy to help,
+
+Daryll

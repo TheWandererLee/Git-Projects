@@ -1,0 +1,36 @@
+.content-with-middle .article-main-content {
+	width: 506px!important;
+}
+
+
+.left-article-block > .article-photo, .left-article-block > .article-photo img {
+	width: 506px;
+}
+
+.triple-article > div.triple-article-single > .article-photo img {
+	width: 152px;
+}
+
+.double-left-article > div.double-article-single:first-child > div.article-photo img {
+	width: 329px;
+}
+
+.double-left-article > div.double-article-single:last-child > div.article-photo img {
+	width: 152px;
+	height: 112px;
+}
+
+.double-article > div.double-article-single > div.article-photo img {
+	width: 243px;
+}
+
+.category-right-block .article-photo img {
+	width: 410px;
+}
+
+
+.photo-gallery-content .photo-gallery-layer .photo-tile, .photo-gallery-content .photo-gallery-layer .photo-tile img {
+	width:230px;
+	height:160px;
+}
+
